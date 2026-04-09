@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VARP Member Directory</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --blue:#32417E;
+    --blue-light:#4A5A9E;
+    --blue-dark:#242F5E;
+    --gold:#F5A623;
+    --gold-light:#FCEBD0;
+    --gold-dark:#D48E1A;
+    --white:#FFFFFF;
+    --gray-50:#F8F9FA;
+    --gray-100:#F0F1F3;
+    --gray-200:#E2E4E8;
+    --gray-300:#C8CCD4;
+    --gray-500:#6B7280;
+    --gray-700:#374151;
+    --gray-900:#111827;
+    --radius:8px;
+    --shadow:0 1px 3px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.06);
+    --shadow-md:0 4px 6px rgba(0,0,0,.07),0 2px 4px rgba(0,0,0,.06);
+    --shadow-lg:0 10px 15px rgba(0,0,0,.1),0 4px 6px rgba(0,0,0,.05);
+    --header-h:0px;
+  }
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--gray-900);background:var(--gray-50);line-height:1.5}
+
+  /* SITE CHROME (faded) */
+  .site-chrome{opacity:.35;pointer-events:none;user-select:none;position:relative}
+  .site-chrome::after{content:'Existing VARP website header';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray-500);background:rgba(255,255,255,.85);padding:4px 14px;border-radius:20px;border:1px dashed var(--gray-300);z-index:10;white-space:nowrap}
+  .topbar{background:var(--white);padding:20px 0 18px;position:relative}
+  .topbar-inner{max-width:1200px;margin:0 auto;padding:0 40px;position:relative;display:flex;justify-content:center;align-items:center;min-height:70px}
+  .topbar-logo img{height:68px;width:auto}
+  .topbar-right{position:absolute;right:40px;top:0;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+  .topbar-links{display:flex;gap:20px}
+  .topbar-links a{font-size:.85rem;color:var(--gold);text-decoration:none;font-weight:400}
+  .topbar-search{position:relative}
+  .topbar-search input{padding:7px 34px 7px 12px;border:1px solid var(--gray-300);border-radius:3px;font-size:.85rem;width:220px;color:var(--gray-700);background:var(--white)}
+  .topbar-search input::placeholder{color:var(--gray-500)}
+  .topbar-search button{position:absolute;right:1px;top:1px;bottom:1px;width:32px;background:var(--gray-100);border:none;border-left:1px solid var(--gray-300);cursor:pointer;color:var(--gray-500);display:flex;align-items:center;justify-content:center;border-radius:0 2px 2px 0}
+  .topbar-search svg{width:14px;height:14px}
+  .main-nav{background:var(--blue)}
+  .main-nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;justify-content:center}
+  .nav-link{padding:16px 28px;color:var(--white);text-decoration:none;font-size:1rem;font-weight:400;position:relative;letter-spacing:.2px}
+  .nav-link.has-indicator::after{content:'';position:absolute;bottom:12px;left:50%;transform:translateX(-50%);width:26px;height:4px;background:var(--white);border-radius:0 0 3px 3px;opacity:.6}
+
+  /* TABS — sticky */
+  .tabs-wrap{background:var(--white);border-bottom:1px solid var(--gray-200);position:sticky;top:0;z-index:90}
+  .tabs{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;gap:0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .tab{padding:14px 20px;font-size:.9rem;font-weight:500;color:var(--gray-500);cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap;transition:all .2s}
+  .tab:hover{color:var(--blue)}
+  .tab.active{color:var(--blue);border-bottom-color:var(--gold);font-weight:600}
+  .tab .count{display:inline-block;background:var(--gray-100);color:var(--gray-500);font-size:.75rem;padding:1px 8px;border-radius:10px;margin-left:6px;font-weight:500}
+  .tab.active .count{background:var(--gold-light);color:var(--gold-dark)}
+
+  /* SPLIT LAYOUT */
+  .split{display:flex;max-width:1200px;margin:0 auto;height:calc(100vh - var(--header-h))}
+
+  /* LEFT: MAP (sticky) */
+  .split-map{width:50%;position:sticky;top:var(--header-h);height:calc(100vh - var(--header-h));display:flex;flex-direction:column;border-right:1px solid var(--gray-200)}
+  #map{flex:1;width:100%;z-index:1}
+  .map-legend{background:var(--white);padding:10px 16px;font-size:.8rem;display:flex;gap:8px;flex-wrap:wrap;border-top:1px solid var(--gray-200)}
+  .legend-item{display:flex;align-items:center;gap:6px;cursor:pointer;padding:4px 10px;border-radius:20px;border:2px solid transparent;transition:all .2s;user-select:none}
+  .legend-item:hover{background:var(--gray-50)}
+  .legend-item.active{border-color:currentColor;background:var(--gray-50);font-weight:600}
+  .legend-dot{width:12px;height:12px;border-radius:50%;border:2px solid var(--white);box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+
+  /* RIGHT: CARDS (scrollable) */
+  .split-cards{width:50%;overflow-y:auto;height:calc(100vh - var(--header-h));background:var(--gray-50)}
+
+  /* CONTROLS */
+  .controls{padding:16px 20px 0}
+  .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:stretch}
+  .search-box{flex:1;min-width:180px;position:relative}
+  .search-box svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--gray-500)}
+  .search-box input{width:100%;padding:9px 10px 9px 34px;border:1px solid var(--gray-200);border-radius:var(--radius);font-size:.9rem;background:var(--white);transition:border-color .2s}
+  .search-box input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(50,65,126,.1)}
+  .filter-select{padding:9px 32px 9px 10px;border:1px solid var(--gray-200);border-radius:var(--radius);font-size:.85rem;background:var(--white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 10px center;-webkit-appearance:none;appearance:none;cursor:pointer;min-width:150px}
+  .filter-select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(50,65,126,.1)}
+  .results-info{padding:10px 0 4px;font-size:.82rem;color:var(--gray-500)}
+  .results-info strong{color:var(--gray-700)}
+
+  /* GRID */
+  .grid{padding:12px 20px 20px;display:flex;flex-direction:column;gap:16px}
+
+  /* CARD */
+  .card{background:var(--white);border:1px solid var(--gray-200);border-radius:var(--radius);overflow:hidden;transition:box-shadow .2s,border-color .2s;display:flex;flex-direction:column;cursor:pointer}
+  .card:hover{box-shadow:var(--shadow-md);border-color:var(--gray-300)}
+  .card.highlighted{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold),var(--shadow-lg)}
+  .card-top{display:flex;gap:14px;padding:16px 16px 0}
+  .card-logo{width:56px;height:56px;border-radius:6px;background:var(--gray-100);display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;border:1px solid var(--gray-200)}
+  .card-logo img{width:100%;height:100%;object-fit:contain}
+  .card-logo .placeholder{font-size:1.3rem;font-weight:700;color:var(--blue);opacity:.5}
+  .card-info{flex:1;min-width:0}
+  .card-name{font-size:.95rem;font-weight:600;color:var(--blue);margin-bottom:3px;line-height:1.3}
+  .card-badge{display:inline-block;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:4px;background:var(--gold-light);color:var(--gold-dark)}
+  .card-body{padding:10px 16px 16px;flex:1;display:flex;flex-direction:column}
+  .card-desc{font-size:.82rem;color:var(--gray-700);margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.45;flex:1}
+  .card-meta{display:flex;flex-direction:column;gap:5px}
+  .meta-row{display:flex;align-items:flex-start;gap:7px;font-size:.82rem;color:var(--gray-700)}
+  .meta-row svg{width:14px;height:14px;flex-shrink:0;margin-top:1px;color:var(--gray-500)}
+  .meta-row a{color:var(--blue);text-decoration:none;word-break:break-all}
+  .meta-row a:hover{text-decoration:underline;color:var(--gold-dark)}
+  .card-divider{height:1px;background:var(--gray-100);margin:10px 0}
+
+  /* PAGINATION */
+  .pagination{padding:8px 20px 24px;display:flex;justify-content:center;gap:4px}
+  .page-btn{width:32px;height:32px;border:1px solid var(--gray-200);border-radius:6px;background:var(--white);cursor:pointer;font-size:.82rem;color:var(--gray-700);display:flex;align-items:center;justify-content:center;transition:all .2s}
+  .page-btn:hover{border-color:var(--blue);color:var(--blue)}
+  .page-btn.active{background:var(--blue);color:var(--white);border-color:var(--blue)}
+  .page-btn:disabled{opacity:.4;cursor:default}
+
+  /* EMPTY STATE */
+  .empty{text-align:center;padding:40px 20px;color:var(--gray-500)}
+  .empty svg{width:40px;height:40px;margin-bottom:10px;opacity:.4}
+  .empty p{font-size:.95rem;margin-bottom:4px}
+  .empty small{font-size:.82rem}
+
+  /* LOADING STATE */
+  .loading{text-align:center;padding:60px 20px;color:var(--gray-500)}
+  .loading-spinner{width:32px;height:32px;border:3px solid var(--gray-200);border-top-color:var(--blue);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .load-error{text-align:center;padding:40px 20px;color:#C0392B}
+  .load-error p{margin-bottom:8px}
+  .load-error button{padding:8px 20px;background:var(--blue);color:var(--white);border:none;border-radius:var(--radius);cursor:pointer;font-size:.85rem}
+
+  /* LEAFLET POPUP */
+  .leaflet-popup-content{font-family:'Segoe UI',system-ui,sans-serif;font-size:.82rem;line-height:1.4;min-width:180px}
+  .popup-name{font-weight:600;color:var(--blue);font-size:.9rem;margin-bottom:3px}
+  .popup-meta{color:var(--gray-700);margin:2px 0}
+  .popup-link{color:var(--blue)}
+
+  /* RESPONSIVE — stack on mobile */
+  @media(max-width:900px){
+    .topbar-inner{flex-direction:column;gap:12px;text-align:center}
+    .topbar-right{position:static;align-items:center}
+    .topbar-logo img{height:50px}
+    .main-nav-inner{justify-content:flex-start;overflow-x:auto;-webkit-overflow-scrolling:touch}
+    .nav-link{padding:12px 16px;font-size:.85rem;white-space:nowrap}
+    .split{flex-direction:column;height:auto}
+    .split-map{width:100%;position:relative;top:auto;height:300px;border-right:none;border-bottom:1px solid var(--gray-200)}
+    .split-cards{width:100%;height:auto;overflow-y:visible}
+    .grid{padding:12px 16px 20px}
+    .controls{padding:12px 16px 0}
+    .search-row{flex-direction:column}
+    .filter-select{width:100%;min-width:unset}
+  }
+  @media(max-width:480px){
+    .card-top{flex-direction:column;align-items:flex-start;gap:8px}
+    .card-logo{width:48px;height:48px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Faded site chrome -->
+<div class="site-chrome">
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-logo">
+      <img src="https://www.varoofingprofessionals.org/resources/Pictures/VARP_logo.png" alt="VARP — Virginia Association of Roofing Professionals">
+    </div>
+    <div class="topbar-right">
+      <div class="topbar-links">
+        <a href="#">Pritika Goel</a>
+        <a href="#">Change password</a>
+        <a href="#">Log out</a>
+      </div>
+      <div class="topbar-search">
+        <input type="text" placeholder="Enter search string">
+        <button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="main-nav">
+  <div class="main-nav-inner">
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link has-indicator">About Us</a>
+    <a href="#" class="nav-link has-indicator">Directory</a>
+    <a href="#" class="nav-link">Join us</a>
+    <a href="#" class="nav-link">Events</a>
+    <a href="#" class="nav-link has-indicator">Roofing Careers</a>
+  </div>
+</nav>
+</div>
+
+<!-- Sticky tabs -->
+<nav class="tabs-wrap" id="tabsWrap">
+  <div class="tabs" id="tabs"></div>
+</nav>
+
+<!-- Split layout: map left, cards right -->
+<div class="split" id="splitLayout">
+  <div class="split-map" id="splitMap">
+    <div id="map"></div>
+    <div class="map-legend" id="mapLegend"></div>
+  </div>
+  <div class="split-cards" id="splitCards">
+    <section class="controls">
+      <div class="search-row">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" id="searchInput" placeholder="Search by company name or service area...">
+        </div>
+        <select class="filter-select" id="regionFilter">
+          <option value="">All Regions</option>
+        </select>
+      </div>
+      <div class="results-info" id="resultsInfo"></div>
+    </section>
+    <div class="grid" id="directory"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</div>
+
+<script>
+// ─── DATA SOURCE ────────────────────────────────────────
+// Production: GitHub Pages URL (set after repo is created)
+const MEMBERS_URL = "https://heathervarp.github.io/member-directory/members.json";
+
+let MEMBERS = [];
+
+const CATEGORIES = [
+  {key:"Contractor",label:"Contractors",color:"#32417E"},
+  {key:"Distributor & Manufacturer",label:"Distributors & Manufacturers",color:"#F5A623"},
+  {key:"Consultant & Design Professional",label:"Consultants & Design Professionals",color:"#2EAD6D"},
+  {key:"Associate Professional",label:"Associate Professionals",color:"#C0392B"}
+];
+
+const PER_PAGE = 12;
+
+// ─── STATE ──────────────────────────────────────────────
+let activeCategory = "Contractor";
+let searchQuery = "";
+let regionFilter = "";
+let currentPage = 1;
+let map, markersLayer;
+let highlightedId = null;
+
+// ─── LOAD MEMBERS DATA ─────────────────────────────────
+async function loadMembers() {
+  const grid = document.getElementById("directory");
+  grid.innerHTML = '<div class="loading"><div class="loading-spinner"></div><p>Loading member directory...</p></div>';
+
+  try {
+    const resp = await fetch(MEMBERS_URL);
+    if (!resp.ok) throw new Error("Failed to load member data");
+    MEMBERS = await resp.json();
+    renderAll();
+  } catch (err) {
+    grid.innerHTML = '<div class="load-error"><p>Could not load member directory.</p><button onclick="loadMembers()">Try Again</button></div>';
+  }
+}
+
+function renderAll() {
+  renderTabs();
+  renderLegend();
+  getRegions();
+  renderDirectory();
+  updateMap();
+}
+
+// ─── MEASURE HEADER FOR STICKY CALC ────────────────────
+function measureHeader() {
+  const tabs = document.getElementById("tabsWrap");
+  const h = tabs.offsetTop + tabs.offsetHeight;
+  document.documentElement.style.setProperty("--header-h", h + "px");
+}
+
+// ─── MAP ────────────────────────────────────────────────
+function initMap() {
+  map = L.map("map",{scrollWheelZoom:true,zoomControl:true}).setView([37.75,-79.0],7);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+    maxZoom:18
+  }).addTo(map);
+  markersLayer = L.layerGroup().addTo(map);
+}
+
+function createMarkerIcon(color) {
+  return L.divIcon({
+    className:"custom-marker",
+    html:`<svg width="28" height="36" viewBox="0 0 28 36" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 0C6.27 0 0 6.27 0 14c0 10.5 14 22 14 22s14-11.5 14-22C28 6.27 21.73 0 14 0z" fill="${color}" stroke="#fff" stroke-width="2"/>
+      <circle cx="14" cy="13" r="5" fill="#fff"/>
+    </svg>`,
+    iconSize:[28,36],
+    iconAnchor:[14,36],
+    popupAnchor:[0,-36]
+  });
+}
+
+function updateMap() {
+  if (!map || !markersLayer) return;
+  markersLayer.clearLayers();
+  const filtered = getAllFiltered();
+  const bounds = [];
+
+  filtered.forEach(m => {
+    if (!m.lat || !m.lng) return;
+    const cat = CATEGORIES.find(c => c.key === m.type);
+    const color = cat ? cat.color : "#32417E";
+    const marker = L.marker([m.lat,m.lng],{icon:createMarkerIcon(color)})
+      .bindPopup(`
+        <div class="popup-name">${esc(m.name)}</div>
+        <div class="popup-meta">${esc(m.serviceArea.join(", "))} &middot; ${esc(m.city)}</div>
+        <div class="popup-meta">${esc(m.phone)}</div>
+        <a class="popup-link" href="${m.website}" target="_blank">${m.website.replace(/^https?:\/\//,'')}</a>
+      `);
+    marker.memberId = m.id;
+    marker.on("click",() => highlightCard(m.id));
+    markersLayer.addLayer(marker);
+    bounds.push([m.lat,m.lng]);
+  });
+
+  if (bounds.length > 0) {
+    map.fitBounds(bounds,{padding:[30,30],maxZoom:10});
+  }
+}
+
+function highlightCard(id) {
+  const panel = document.getElementById("splitCards");
+  document.querySelectorAll(".card.highlighted").forEach(c => c.classList.remove("highlighted"));
+  const card = document.querySelector(`.card[data-id="${id}"]`);
+  if (card) {
+    card.classList.add("highlighted");
+    const cardTop = card.offsetTop - panel.offsetTop - 80;
+    panel.scrollTo({top:cardTop,behavior:"smooth"});
+    highlightedId = id;
+    setTimeout(() => { card.classList.remove("highlighted"); highlightedId = null; },3000);
+  }
+}
+
+function panToMember(id) {
+  if (!map) return;
+  const m = MEMBERS.find(x => x.id === id);
+  if (!m || !m.lat) return;
+  map.setView([m.lat,m.lng],11,{animate:true});
+  markersLayer.eachLayer(layer => {
+    if (layer.memberId === id) layer.openPopup();
+  });
+}
+
+// ─── LEGEND ─────────────────────────────────────────────
+const LEGEND_LABELS = {
+  "Contractor":"Contractors",
+  "Distributor & Manufacturer":"Distributors/Manufacturers",
+  "Consultant & Design Professional":"Consultants",
+  "Associate Professional":"Associates"
+};
+
+function renderLegend() {
+  const el = document.getElementById("mapLegend");
+  el.innerHTML = CATEGORIES.map(cat => {
+    const label = LEGEND_LABELS[cat.key] || cat.label;
+    const isActive = activeCategory === cat.key;
+    return `<div class="legend-item${isActive?' active':''}" data-cat="${cat.key}" style="color:${cat.color}">
+      <span class="legend-dot" style="background:${cat.color}"></span> ${label}
+    </div>`;
+  }).join("");
+  el.querySelectorAll(".legend-item").forEach(item => {
+    item.addEventListener("click",() => {
+      activeCategory = item.dataset.cat;
+      currentPage = 1;
+      renderTabs();
+      renderLegend();
+      renderDirectory();
+      updateMap();
+    });
+  });
+}
+
+// ─── TABS ───────────────────────────────────────────────
+function renderTabs() {
+  const tabsEl = document.getElementById("tabs");
+  tabsEl.innerHTML = CATEGORIES.map(cat => {
+    const count = MEMBERS.filter(m => m.type === cat.key).length;
+    return `<div class="tab${activeCategory===cat.key?' active':''}" data-cat="${cat.key}">${cat.label}<span class="count">${count}</span></div>`;
+  }).join("");
+  tabsEl.querySelectorAll(".tab").forEach(t => {
+    t.addEventListener("click",() => {
+      activeCategory = t.dataset.cat;
+      currentPage = 1;
+      renderTabs();
+      renderLegend();
+      renderDirectory();
+      updateMap();
+    });
+  });
+}
+
+// ─── REGIONS ────────────────────────────────────────────
+function getRegions() {
+  const regions = [...new Set(MEMBERS.flatMap(m => m.serviceArea).filter(Boolean))].sort();
+  const sel = document.getElementById("regionFilter");
+  sel.innerHTML = '<option value="">All Regions</option>' +
+    regions.map(r => `<option value="${r}">${r}</option>`).join("");
+}
+
+// ─── FILTER ─────────────────────────────────────────────
+function getAllFiltered() {
+  return MEMBERS.filter(m => {
+    if (m.type !== activeCategory) return false;
+    if (regionFilter && !m.serviceArea.includes(regionFilter) && !m.serviceArea.includes("Statewide")) return false;
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      if (![m.name,m.serviceArea.join(", "),m.city,m.description].join(" ").toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function getPagedFiltered() {
+  const all = getAllFiltered();
+  const start = (currentPage - 1) * PER_PAGE;
+  return {items:all.slice(start,start+PER_PAGE),total:all.length};
+}
+
+// ─── PAGINATION ─────────────────────────────────────────
+function renderPagination(total) {
+  const pages = Math.ceil(total / PER_PAGE);
+  const pag = document.getElementById("pagination");
+  if (pages <= 1) { pag.innerHTML = ""; return; }
+  let html = `<button class="page-btn" ${currentPage===1?'disabled':''} onclick="goPage(${currentPage-1})">&lsaquo;</button>`;
+  for (let i = 1; i <= pages; i++) {
+    html += `<button class="page-btn${i===currentPage?' active':''}" onclick="goPage(${i})">${i}</button>`;
+  }
+  html += `<button class="page-btn" ${currentPage===pages?'disabled':''} onclick="goPage(${currentPage+1})">&rsaquo;</button>`;
+  pag.innerHTML = html;
+}
+
+function goPage(p) {
+  currentPage = p;
+  renderDirectory();
+  document.getElementById("splitCards").scrollTo({top:0,behavior:"smooth"});
+}
+
+// ─── RENDER CARDS ───────────────────────────────────────
+function renderDirectory() {
+  const {items,total} = getPagedFiltered();
+  const grid = document.getElementById("directory");
+  const info = document.getElementById("resultsInfo");
+  const catLabel = CATEGORIES.find(c => c.key === activeCategory)?.label || "";
+
+  info.innerHTML = `Showing <strong>${items.length}</strong> of <strong>${total}</strong> ${catLabel.toLowerCase()}` +
+    (regionFilter ? ` in <strong>${regionFilter}</strong>` : "") +
+    (searchQuery ? ` matching "<strong>${esc(searchQuery)}</strong>"` : "");
+
+  if (total === 0) {
+    grid.innerHTML = `<div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <p>No results found</p><small>Try adjusting your search or filter</small></div>`;
+    renderPagination(0);
+    return;
+  }
+
+  grid.innerHTML = items.map(m => `
+    <article class="card${highlightedId===m.id?' highlighted':''}" data-id="${m.id}" onclick="panToMember(${m.id})">
+      <div class="card-top">
+        <div class="card-logo">
+          ${m.logo ? `<img src="${m.logo}" alt="${esc(m.name)} logo">` : `<span class="placeholder">${m.name.charAt(0)}</span>`}
+        </div>
+        <div class="card-info">
+          <div class="card-name">${esc(m.name)}</div>
+          <span class="card-badge">${esc(m.type)}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">${esc(m.description)}</p>
+        <div class="card-divider"></div>
+        <div class="card-meta">
+          <div class="meta-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>${esc(m.serviceArea.join(", "))} &middot; ${esc(m.city)}</span>
+          </div>
+          <div class="meta-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>${esc(m.phone)}</span>
+          </div>
+          <div class="meta-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+            <a href="${m.website}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${m.website.replace(/^https?:\/\//,'')}</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  `).join("");
+
+  renderPagination(total);
+}
+
+function esc(str) {
+  const d = document.createElement("div");
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+// ─── EVENT LISTENERS ────────────────────────────────────
+document.getElementById("searchInput").addEventListener("input",e => {
+  searchQuery = e.target.value.trim();
+  currentPage = 1;
+  renderDirectory();
+  updateMap();
+});
+
+document.getElementById("regionFilter").addEventListener("change",e => {
+  regionFilter = e.target.value;
+  currentPage = 1;
+  renderDirectory();
+  updateMap();
+});
+
+// ─── INIT ───────────────────────────────────────────────
+window.addEventListener("load",() => {
+  measureHeader();
+  initMap();
+  loadMembers();
+});
+window.addEventListener("resize",() => {
+  measureHeader();
+  if (map) map.invalidateSize();
+});
+</script>
+
+</body>
+</html>
