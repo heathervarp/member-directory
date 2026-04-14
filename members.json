@@ -1,6 +1,71 @@
 [
   {
-    "id": 16,
+    "id": 86,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC supply",
+    "logo": "",
+    "phone": "7576924091",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.85987,
+    "lng": -76.2366741
+  },
+  {
+    "id": 30,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Co., Inc.",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 27,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "(757) 852-3600",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.85987,
+    "lng": -76.2366741
+  },
+  {
+    "id": 33,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "770-4585",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8493695,
+    "lng": -76.2899539
+  },
+  {
+    "id": 46,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "Springfield",
+    "description": "",
+    "lat": 38.7945671,
+    "lng": -77.1759425
+  },
+  {
+    "id": 49,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -13,7 +78,72 @@
     "lng": -77.4602526
   },
   {
-    "id": 24,
+    "id": 51,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "(757) 857-9600",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 54,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "(804) 230-2100",
+    "website": "http://www.abcsupply.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.491795,
+    "lng": -77.4365474
+  },
+  {
+    "id": 84,
+    "type": "Contractor",
+    "name": "Andrews Roofing Company, Inc.",
+    "logo": "",
+    "phone": "(757) 399-3066",
+    "website": "http://www.andrewsroofing.com",
+    "serviceArea": [],
+    "city": "Portsmouth",
+    "description": "",
+    "lat": 36.8412618,
+    "lng": -76.335803
+  },
+  {
+    "id": 15,
+    "type": "Distributor & Manufacturer",
+    "name": "Architectural Exterior Solutions, LLC",
+    "logo": "",
+    "phone": "757-375-5731",
+    "website": "",
+    "serviceArea": [],
+    "city": "Williamsburg",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 48,
+    "type": "Distributor & Manufacturer",
+    "name": "Architectural Exterior Solutions, LLC",
+    "logo": "",
+    "phone": "(757) 564-8907",
+    "website": "",
+    "serviceArea": [],
+    "city": "Williamsburg",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 69,
     "type": "Distributor & Manufacturer",
     "name": "Architectural Exterior Solutions, LLC",
     "logo": "",
@@ -26,7 +156,7 @@
     "lng": -79.977825
   },
   {
-    "id": 10,
+    "id": 29,
     "type": "Distributor & Manufacturer",
     "name": "Atlantic Construction Sales",
     "logo": "",
@@ -39,7 +169,72 @@
     "lng": -79.1686446
   },
   {
-    "id": 29,
+    "id": 31,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlantic Construction Sales",
+    "logo": "",
+    "phone": "(804) 971-7191",
+    "website": "www.acsfirestone.com",
+    "serviceArea": [],
+    "city": "Midlothian",
+    "description": "",
+    "lat": 37.5045686,
+    "lng": -77.6632304
+  },
+  {
+    "id": 62,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlantic Construction Sales",
+    "logo": "",
+    "phone": "(434) 528-9156",
+    "website": "http://dlpollard@acsfirestone.com",
+    "serviceArea": [],
+    "city": "Lynchburg",
+    "description": "",
+    "lat": 37.411278,
+    "lng": -79.1686446
+  },
+  {
+    "id": 78,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlantic Construction Sales",
+    "logo": "",
+    "phone": "(434) 528-9156",
+    "website": "",
+    "serviceArea": [],
+    "city": "Lynchburg",
+    "description": "",
+    "lat": 37.411278,
+    "lng": -79.1686446
+  },
+  {
+    "id": 52,
+    "type": "Contractor",
+    "name": "Baker Roofing",
+    "logo": "",
+    "phone": "804-317-3033",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 61,
+    "type": "Contractor",
+    "name": "Baker Roofing",
+    "logo": "",
+    "phone": "(757) 284-4209",
+    "website": "",
+    "serviceArea": [],
+    "city": "Chesapeake",
+    "description": "",
+    "lat": 36.782082,
+    "lng": -76.3732328
+  },
+  {
+    "id": 83,
     "type": "Contractor",
     "name": "Baker Roofing",
     "logo": "",
@@ -57,7 +252,72 @@
     "lng": null
   },
   {
-    "id": 14,
+    "id": 42,
+    "type": "Contractor",
+    "name": "Baker Roofing Company - Richmond",
+    "logo": "",
+    "phone": "(804) 425-5362",
+    "website": "",
+    "serviceArea": [],
+    "city": "Chester",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 5,
+    "type": "Contractor",
+    "name": "Baker Roofing of Roanoke, LLC",
+    "logo": "",
+    "phone": "(540) 981-2430",
+    "website": "http://www.bakerroofing-va.com",
+    "serviceArea": [],
+    "city": "Roanoke",
+    "description": "",
+    "lat": 37.281961,
+    "lng": -79.989799
+  },
+  {
+    "id": 43,
+    "type": "Contractor",
+    "name": "Baker Roofing of Roanoke, LLC",
+    "logo": "",
+    "phone": "(540) 981-2430",
+    "website": "http://www.bakerroofing-va.com",
+    "serviceArea": [],
+    "city": "Roanoke",
+    "description": "",
+    "lat": 37.281961,
+    "lng": -79.989799
+  },
+  {
+    "id": 60,
+    "type": "Contractor",
+    "name": "Baker Roofing of Roanoke, LLC",
+    "logo": "",
+    "phone": "(540) 981-2430",
+    "website": "http://www.bakerroofing.com",
+    "serviceArea": [],
+    "city": "Roanoke",
+    "description": "",
+    "lat": 37.281961,
+    "lng": -79.989799
+  },
+  {
+    "id": 3,
+    "type": "Contractor",
+    "name": "Beck Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 473-9010",
+    "website": "http://www.beckroofing.com",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8656788,
+    "lng": -76.2490345
+  },
+  {
+    "id": 41,
     "type": "Contractor",
     "name": "Beck Roofing Corporation",
     "logo": "",
@@ -72,7 +332,85 @@
     "lng": -76.2490345
   },
   {
-    "id": 23,
+    "id": 47,
+    "type": "Contractor",
+    "name": "Beck Roofing Corporation",
+    "logo": "",
+    "phone": "757-473-9010",
+    "website": "http://www.beckroofing.com",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "",
+    "lat": 36.8441474,
+    "lng": -76.1790376
+  },
+  {
+    "id": 56,
+    "type": "Contractor",
+    "name": "Beck Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 473-9010",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8656788,
+    "lng": -76.2490345
+  },
+  {
+    "id": 17,
+    "type": "Contractor",
+    "name": "Block Roofing Corporation",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 63,
+    "type": "Contractor",
+    "name": "Block Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 855-0400",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8542885,
+    "lng": -76.2418489
+  },
+  {
+    "id": 14,
+    "type": "Contractor",
+    "name": "Blue Ridge Roofing, Inc.",
+    "logo": "",
+    "phone": "434-979-0501",
+    "website": "",
+    "serviceArea": [],
+    "city": "Charlottesville",
+    "description": "",
+    "lat": 38.0158846,
+    "lng": -78.4707376
+  },
+  {
+    "id": 53,
+    "type": "Contractor",
+    "name": "Blue Ridge Roofing, Inc.",
+    "logo": "",
+    "phone": "(434) 979-0501",
+    "website": "",
+    "serviceArea": [],
+    "city": "Charlottesville",
+    "description": "",
+    "lat": 38.0158846,
+    "lng": -78.4707376
+  },
+  {
+    "id": 68,
     "type": "Contractor",
     "name": "Blue Ridge Roofing, Inc.",
     "logo": "",
@@ -85,7 +423,33 @@
     "lng": -78.4707376
   },
   {
-    "id": 20,
+    "id": 94,
+    "type": "Contractor",
+    "name": "Blue Ridge Roofing, Inc.",
+    "logo": "",
+    "phone": "(434) 979-0501",
+    "website": "http://www.blueridgeroofing.net",
+    "serviceArea": [],
+    "city": "Charlottesville",
+    "description": "",
+    "lat": 38.0158846,
+    "lng": -78.4707376
+  },
+  {
+    "id": 72,
+    "type": "Contractor",
+    "name": "BMS Roofing Corporation",
+    "logo": "",
+    "phone": "(703) 631-3390",
+    "website": "",
+    "serviceArea": [],
+    "city": "Manassas",
+    "description": "",
+    "lat": 38.7501011,
+    "lng": -77.547657
+  },
+  {
+    "id": 59,
     "type": "Contractor",
     "name": "Brown Roofing Company, Inc.",
     "logo": "",
@@ -100,7 +464,33 @@
     "lng": -77.5416589
   },
   {
-    "id": 32,
+    "id": 7,
+    "type": "Contractor",
+    "name": "Cross Timbers Roofing",
+    "logo": "",
+    "phone": "804-275-9373",
+    "website": "http://www.crosstimbersroofing.com",
+    "serviceArea": [],
+    "city": "North Chesterfield",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 26,
+    "type": "Contractor",
+    "name": "Cross Timbers Roofing",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 92,
     "type": "Contractor",
     "name": "DeShazo & Son Roofing, Inc.",
     "logo": "",
@@ -116,7 +506,7 @@
     "lng": -77.5211629
   },
   {
-    "id": 15,
+    "id": 44,
     "type": "Contractor",
     "name": "DeShazo, J. King, III, Inc.",
     "logo": "",
@@ -131,7 +521,20 @@
     "lng": null
   },
   {
-    "id": 6,
+    "id": 58,
+    "type": "Contractor",
+    "name": "DryHome Roofing & Siding Inc",
+    "logo": "",
+    "phone": "(703) 230-7663",
+    "website": "",
+    "serviceArea": [],
+    "city": "Sterling",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 22,
     "type": "Contractor",
     "name": "DryHome Roofing & Siding Inc.",
     "logo": "",
@@ -146,7 +549,20 @@
     "lng": null
   },
   {
-    "id": 25,
+    "id": 88,
+    "type": "Contractor",
+    "name": "DryHome Roofing & Siding Inc.",
+    "logo": "",
+    "phone": "703-230-7663",
+    "website": "http://www.dryhome.com",
+    "serviceArea": [],
+    "city": "Sterling",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 71,
     "type": "Distributor & Manufacturer",
     "name": "Dunn & Abee, Inc.",
     "logo": "",
@@ -159,7 +575,7 @@
     "lng": -80.8193519
   },
   {
-    "id": 2,
+    "id": 13,
     "type": "Contractor",
     "name": "Gupton Insulation Co., Inc.",
     "logo": "",
@@ -174,7 +590,7 @@
     "lng": null
   },
   {
-    "id": 28,
+    "id": 81,
     "type": "Consultant & Design Professional",
     "name": "Hale Associates LLC",
     "logo": "",
@@ -187,7 +603,33 @@
     "lng": -77.2304506
   },
   {
-    "id": 21,
+    "id": 25,
+    "type": "Distributor & Manufacturer",
+    "name": "Handy Distribution",
+    "logo": "",
+    "phone": "(540) 343-2467",
+    "website": "http://www.nbhandy.com",
+    "serviceArea": [],
+    "city": "Roanoke",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 45,
+    "type": "Distributor & Manufacturer",
+    "name": "Handy Distribution",
+    "logo": "",
+    "phone": "(757) 857-8300",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 65,
     "type": "Distributor & Manufacturer",
     "name": "Handy Distribution",
     "logo": "",
@@ -200,7 +642,33 @@
     "lng": null
   },
   {
-    "id": 27,
+    "id": 76,
+    "type": "Distributor & Manufacturer",
+    "name": "Handy Distribution",
+    "logo": "",
+    "phone": "(804) 354-9576",
+    "website": "http://www.nbhandy.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 64,
+    "type": "Associate Professional",
+    "name": "Harry R. James Insurance Agency",
+    "logo": "",
+    "phone": "804-644-2938",
+    "website": "",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.5380206,
+    "lng": -77.5230699
+  },
+  {
+    "id": 77,
     "type": "Associate Professional",
     "name": "Harry R. James Insurance Agency",
     "logo": "",
@@ -213,7 +681,7 @@
     "lng": -77.5230699
   },
   {
-    "id": 5,
+    "id": 21,
     "type": "Contractor",
     "name": "Hermitage Roofing Company, Inc.",
     "logo": "",
@@ -231,7 +699,33 @@
     "lng": null
   },
   {
-    "id": 31,
+    "id": 10,
+    "type": "Contractor",
+    "name": "International Roofing Corp.",
+    "logo": "",
+    "phone": "804-648-7911",
+    "website": "http://www.ir-roof.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.5598466,
+    "lng": -77.4136929
+  },
+  {
+    "id": 70,
+    "type": "Contractor",
+    "name": "J.D. Miles & Sons, Inc.",
+    "logo": "",
+    "phone": "(757) 545-5912",
+    "website": "http://www.jdmilesandsons.com",
+    "serviceArea": [],
+    "city": "Chesapeake",
+    "description": "",
+    "lat": 36.8225834,
+    "lng": -76.2769162
+  },
+  {
+    "id": 90,
     "type": "Contractor",
     "name": "J.D. Miles & Sons, Inc.",
     "logo": "",
@@ -246,7 +740,7 @@
     "lng": -76.2769162
   },
   {
-    "id": 12,
+    "id": 37,
     "type": "Contractor",
     "name": "J.R. Roofing & Siding Co., Inc.",
     "logo": "",
@@ -261,7 +755,7 @@
     "lng": null
   },
   {
-    "id": 17,
+    "id": 50,
     "type": "Contractor",
     "name": "Katchmark Construction, Inc",
     "logo": "",
@@ -277,7 +771,20 @@
     "lng": -76.2321141
   },
   {
-    "id": 13,
+    "id": 74,
+    "type": "Contractor",
+    "name": "Katchmark Construction, Inc",
+    "logo": "",
+    "phone": "703-973-9237",
+    "website": "",
+    "serviceArea": [],
+    "city": "Chantilly",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 39,
     "type": "Contractor",
     "name": "Kevin Parker Roofing Contractor, Inc.",
     "logo": "",
@@ -292,7 +799,7 @@
     "lng": null
   },
   {
-    "id": 22,
+    "id": 67,
     "type": "Contractor",
     "name": "Loudoun Valley Roofing",
     "logo": "",
@@ -305,6 +812,32 @@
     "description": "Family-run roofing contractor and gutter shop repairing and replacing roofs, plus installing new metal and aluminum designs.",
     "lat": 39.1461353,
     "lng": -77.7158753
+  },
+  {
+    "id": 85,
+    "type": "Distributor & Manufacturer",
+    "name": "Owens Corning",
+    "logo": "",
+    "phone": "804-647-1290",
+    "website": "",
+    "serviceArea": [],
+    "city": "Glen Allen",
+    "description": "",
+    "lat": 37.6659781,
+    "lng": -77.506374
+  },
+  {
+    "id": 11,
+    "type": "Contractor",
+    "name": "Paul Saunders Roofing Co.",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
   },
   {
     "id": 1,
@@ -322,7 +855,33 @@
     "lng": -77.459153
   },
   {
-    "id": 30,
+    "id": 19,
+    "type": "Distributor & Manufacturer",
+    "name": "Petersen Aluminum Corporation",
+    "logo": "",
+    "phone": "(301) 953-2210",
+    "website": "http://www.pac-clad.com",
+    "serviceArea": [],
+    "city": "Annapolis Junction",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 93,
+    "type": "Distributor & Manufacturer",
+    "name": "Petersen Aluminum Corporation",
+    "logo": "",
+    "phone": "(717) 479-3538",
+    "website": "",
+    "serviceArea": [],
+    "city": "Annapolis Junction",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 87,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -335,7 +894,22 @@
     "lng": -77.4135183
   },
   {
-    "id": 7,
+    "id": 36,
+    "type": "Contractor",
+    "name": "Phoenix Roofing Company, Inc.",
+    "logo": "",
+    "phone": "(804) 355-1089",
+    "website": "http://www.phoenix-roofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "Flashing and Trim, Membrane Roofing, Roof Panels, Thermal Insulation, Waterproofing",
+    "lat": 37.583126,
+    "lng": -77.4135183
+  },
+  {
+    "id": 23,
     "type": "Contractor",
     "name": "Quality Enterprises, Inc.",
     "logo": "",
@@ -348,7 +922,46 @@
     "lng": null
   },
   {
-    "id": 11,
+    "id": 38,
+    "type": "Contractor",
+    "name": "Rappahannock Roofing Company, Inc.",
+    "logo": "",
+    "phone": "(540) 373-5008",
+    "website": "http://www.rapproofco.com",
+    "serviceArea": [],
+    "city": "Fredericksburg",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 80,
+    "type": "Consultant & Design Professional",
+    "name": "REI Engineers",
+    "logo": "",
+    "phone": "757-927-2379",
+    "website": "",
+    "serviceArea": [],
+    "city": "Virginia Beach Virginia",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 95,
+    "type": "Consultant & Design Professional",
+    "name": "REI Engineers",
+    "logo": "",
+    "phone": "757-961-7224 x425",
+    "website": "",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "",
+    "lat": 36.8163106,
+    "lng": -76.1685747
+  },
+  {
+    "id": 35,
     "type": "Contractor",
     "name": "Roof Engineering Corporation",
     "logo": "",
@@ -363,7 +976,85 @@
     "lng": -76.2446696
   },
   {
+    "id": 89,
+    "type": "Contractor",
+    "name": "Roof Engineering Corporation",
+    "logo": "",
+    "phone": "757-455-8333",
+    "website": "",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8518315,
+    "lng": -76.2446696
+  },
+  {
+    "id": 2,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "(804) 222-6004",
+    "website": "https://www.tectaamerica.com/roof-services-locations/",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
     "id": 4,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "(757) 468-4443",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 9,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "804-222-6004",
+    "website": "",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 34,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "(757) 468-4443",
+    "website": "http://www.roofservicescorp.com",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "",
+    "lat": 36.7848829,
+    "lng": -76.0782835
+  },
+  {
+    "id": 91,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "(757) 468-4443",
+    "website": "",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "",
+    "lat": 36.7848829,
+    "lng": -76.0782835
+  },
+  {
+    "id": 18,
     "type": "Contractor",
     "name": "Roof Systems of Virginia Inc.",
     "logo": "",
@@ -379,7 +1070,72 @@
     "lng": -76.2913495
   },
   {
-    "id": 18,
+    "id": 12,
+    "type": "Contractor",
+    "name": "Roof Systems of Virginia, Inc.",
+    "logo": "",
+    "phone": "804-231-2875",
+    "website": "http://www.roofsys.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "Roof Systems of Virginia, Inc. is an award winning commercial, industrial and institutional roofing contractor. We are one of the largest, well-respected contractors in the commonwealth.",
+    "lat": 37.5118921,
+    "lng": -77.4475255
+  },
+  {
+    "id": 20,
+    "type": "Contractor",
+    "name": "Roof Systems of Virginia, Inc.",
+    "logo": "",
+    "phone": "804-231-2875",
+    "website": "http://www.roofsys.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.5118921,
+    "lng": -77.4475255
+  },
+  {
+    "id": 66,
+    "type": "Contractor",
+    "name": "Roof Systems of Virginia, Inc.",
+    "logo": "",
+    "phone": "804-231-2875",
+    "website": "http://www.roofsys.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.5118921,
+    "lng": -77.4475255
+  },
+  {
+    "id": 73,
+    "type": "Contractor",
+    "name": "Roof Systems of Virginia, Inc.",
+    "logo": "",
+    "phone": "231-2875",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 8,
+    "type": "Distributor & Manufacturer",
+    "name": "Safren Sales",
+    "logo": "",
+    "phone": "5402728261",
+    "website": "http://www.safrensales.com",
+    "serviceArea": [],
+    "city": "Culpeper",
+    "description": "",
+    "lat": 38.4233599,
+    "lng": -78.0317541
+  },
+  {
+    "id": 55,
     "type": "Distributor & Manufacturer",
     "name": "Safren Sales",
     "logo": "",
@@ -392,7 +1148,7 @@
     "lng": -78.0317541
   },
   {
-    "id": 3,
+    "id": 16,
     "type": "Distributor & Manufacturer",
     "name": "Sansbury & Associates LLC",
     "logo": "",
@@ -405,7 +1161,37 @@
     "lng": -77.6779285
   },
   {
-    "id": 9,
+    "id": 40,
+    "type": "Distributor & Manufacturer",
+    "name": "Sansbury & Associates LLC",
+    "logo": "",
+    "phone": "(804) 519-9835",
+    "website": "http://www.sansburyreps.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Chesterfield",
+    "description": "",
+    "lat": 37.3499528,
+    "lng": -77.5297807
+  },
+  {
+    "id": 82,
+    "type": "Contractor",
+    "name": "Saunders Roofing Co.",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 28,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -418,7 +1204,20 @@
     "lng": -77.4926077
   },
   {
-    "id": 8,
+    "id": 79,
+    "type": "Distributor & Manufacturer",
+    "name": "SRS Building Products",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 24,
     "type": "Contractor",
     "name": "Strong Ridge Construction LLC",
     "logo": "",
@@ -433,7 +1232,7 @@
     "lng": -76.2334103
   },
   {
-    "id": 26,
+    "id": 75,
     "type": "Contractor",
     "name": "Thomas Roofing & Supply, Inc.",
     "logo": "",
@@ -448,7 +1247,33 @@
     "lng": null
   },
   {
-    "id": 19,
+    "id": 32,
+    "type": "Contractor",
+    "name": "TST Roofing & Glazing",
+    "logo": "",
+    "phone": "757-644-6475",
+    "website": "",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "",
+    "lat": 36.7816627,
+    "lng": -76.0109667
+  },
+  {
+    "id": 6,
+    "type": "Contractor",
+    "name": "W.T. Anderson Corp.",
+    "logo": "",
+    "phone": "(757) 816-9203",
+    "website": "http://www.wtandersoncorp.com/",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": 36.8698208,
+    "lng": -76.2335969
+  },
+  {
+    "id": 57,
     "type": "Contractor",
     "name": "W.T. Anderson Corp.",
     "logo": "",

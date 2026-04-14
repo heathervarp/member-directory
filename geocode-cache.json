@@ -90,5 +90,105 @@
   "8505 Brook Road, Glen Allen, VA 23060": {
     "lat": 37.690186,
     "lng": -77.5211629
+  },
+  "3308 NW Shenandoah Ave, Roanoke, VA 24017": {
+    "lat": 37.281961,
+    "lng": -79.989799
+  },
+  "2200 Magnolia Street, Richmond, VA 23223": {
+    "lat": 37.5598466,
+    "lng": -77.4136929
+  },
+  "501 Jefferson Davis Highway, Richmond, VA 23224": {
+    "lat": 37.5118921,
+    "lng": -77.4475255
+  },
+  "1009 Linden Avenue, Charlottesville, VA 22902": {
+    "lat": 38.0158846,
+    "lng": -78.4707376
+  },
+  "3747 Village Ave, Norfolk, VA 23502": {
+    "lat": 36.85987,
+    "lng": -76.2366741
+  },
+  "14241 Midlothian Turnpike, Midlothian, VA 23113": {
+    "lat": 37.5045686,
+    "lng": -77.6632304
+  },
+  "1732 Corporate Landing Pkwy, Virginia Beach, VA 23454": {
+    "lat": 36.7816627,
+    "lng": -76.0109667
+  },
+  "Norfolk, VA": {
+    "lat": 36.8493695,
+    "lng": -76.2899539
+  },
+  "3056 Holland Rd, Virginia Beach, VA 23456": {
+    "lat": 36.7848829,
+    "lng": -76.0782835
+  },
+  "3903 Carolina Avenue, Richmond, VA 23222": {
+    "lat": 37.583126,
+    "lng": -77.4135183
+  },
+  "8300 Kalliope Court, Chesterfield, VA 23838": {
+    "lat": 37.3499528,
+    "lng": -77.5297807
+  },
+  "6707 Electronic Dr, Springfield, VA 22151": {
+    "lat": 38.7945671,
+    "lng": -77.1759425
+  },
+  "5600 Greenwich Road, Virginia Beach, VA 23462": {
+    "lat": 36.8441474,
+    "lng": -76.1790376
+  },
+  "2120 Bellemeade Rd, Richmond, VA 23224": {
+    "lat": 37.491795,
+    "lng": -77.4365474
+  },
+  "2434 Cromwell Road, Norfolk, VA 23509": {
+    "lat": 36.8656788,
+    "lng": -76.2490345
+  },
+  "3809 Cook Blvd, Chesapeake, VA 23323": {
+    "lat": 36.782082,
+    "lng": -76.3732328
+  },
+  "3412 E Virginia Beach Blvd, Norfolk, VA 23502": {
+    "lat": 36.8542885,
+    "lng": -76.2418489
+  },
+  "210 B Street, Chesapeake, VA 23324": {
+    "lat": 36.8225834,
+    "lng": -76.2769162
+  },
+  "11721 Pump Station Way, Manassas, VA 20109": {
+    "lat": 38.7501011,
+    "lng": -77.547657
+  },
+  "757 Mt. Vernon Avenue, Portsmouth, VA 23707": {
+    "lat": 36.8412618,
+    "lng": -76.335803
+  },
+  "Glen Allen, VA": {
+    "lat": 37.6659781,
+    "lng": -77.506374
+  },
+  "3747 Village Avenue, Norfolk, VA 23503": {
+    "lat": 36.85987,
+    "lng": -76.2366741
+  },
+  "3401 Mangrove Avenue, Norfolk, VA 23502": {
+    "lat": 36.8518315,
+    "lng": -76.2446696
+  },
+  "3056 Holland Road, Virginia Beach, VA 23453": {
+    "lat": 36.7848829,
+    "lng": -76.0782835
+  },
+  "750 Lord Dunmore Drive, Virginia Beach, VA 23464": {
+    "lat": 36.8163106,
+    "lng": -76.1685747
   }
 }
