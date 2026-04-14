@@ -223,6 +223,35 @@ async function main() {
   console.log("Fetching active + pending-renewal members...");
   const contacts = await fetchContacts(token);
 
+  // DEBUG: Log field names and bundle-related info from first contact
+  if (contacts.length > 0) {
+    const sample = contacts[0];
+    console.log("\n--- DEBUG: Top-level contact keys ---");
+    console.log(Object.keys(sample).join(", "));
+    if (sample.MembershipLevel) console.log("MembershipLevel:", JSON.stringify(sample.MembershipLevel));
+    if (sample.Role) console.log("Role:", sample.Role);
+    if (sample.IsAccountAdministrator !== undefined) console.log("IsAccountAdministrator:", sample.IsAccountAdministrator);
+    if (sample.IsBundleCoordinator !== undefined) console.log("IsBundleCoordinator:", sample.IsBundleCoordinator);
+    console.log("\n--- DEBUG: All FieldValue names ---");
+    console.log(sample.FieldValues.map(f => f.FieldName).join("\n"));
+    console.log("\n--- DEBUG: Member role values across all contacts ---");
+    const roles = new Set();
+    contacts.forEach(c => {
+      const fv = c.FieldValues.find(f => f.FieldName === "Member role");
+      if (fv) roles.add(String(fv.Value));
+    });
+    console.log([...roles].join(", ") || "(no 'Member role' field found)");
+    // Also check for bundle-related fields
+    const bundleFields = contacts[0].FieldValues.filter(f =>
+      f.FieldName.toLowerCase().includes("bundle") || f.FieldName.toLowerCase().includes("coordinator")
+    );
+    if (bundleFields.length) {
+      console.log("\n--- DEBUG: Bundle-related fields ---");
+      bundleFields.forEach(f => console.log(`  ${f.FieldName}: ${JSON.stringify(f.Value)}`));
+    }
+    console.log("--- END DEBUG ---\n");
+  }
+
   // Filter to directory-eligible members
   const eligible = contacts.filter((c) => {
     const fvs = {};
