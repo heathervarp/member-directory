@@ -194,5 +194,153 @@
   "30368 Zoar Road, Locust Grove, VA 22508": {
     "lat": 38.3382604,
     "lng": -77.8432435
+  },
+  "520 Edwards Ct, Newport News, VA 23608": {
+    "lat": 37.1646978,
+    "lng": -76.5475811
+  },
+  "1409 Air Rail Avenue, Virginia Beach, VA 23455": {
+    "lat": 36.8950631,
+    "lng": -76.1899039
+  },
+  "110 W Johnson St, Staunton, VA 24401": {
+    "lat": 38.148275,
+    "lng": -79.0741135
+  },
+  "1009 Scenic Parkway, Chesapeake, VA 23323": {
+    "lat": 36.7149945,
+    "lng": -76.3172859
+  },
+  "1531 Saint James St, Richmond, VA 23222": {
+    "lat": 37.556342,
+    "lng": -77.4326833
+  },
+  "3131 Southside Avenue, Henrico, VA 23228": {
+    "lat": 37.6038799,
+    "lng": -77.4906136
+  },
+  "4305, Richmond, VA 23231": {
+    "lat": 37.5772592,
+    "lng": -77.3965273
+  },
+  "Portsmouth, VA": {
+    "lat": 36.8320081,
+    "lng": -76.297699
+  },
+  "Camp Sherman, OR": {
+    "lat": 44.4600866,
+    "lng": -121.6432333
+  },
+  "5463 Nansemond Pkwy, Suffolk, VA 23434": {
+    "lat": 36.8175691,
+    "lng": -76.4578108
+  },
+  "3204 Old Pickett Rd, Fairfax, VA 22031": {
+    "lat": 38.86354,
+    "lng": -77.2755324
+  },
+  "Fredericksburg, VA": {
+    "lat": 38.3031837,
+    "lng": -77.4605399
+  },
+  "500 Freeman Ave, Chesapeake, VA 23324": {
+    "lat": 36.7858003,
+    "lng": -76.290767
+  },
+  "937 Corporate Lane, Chesapeake, VA 23320": {
+    "lat": 36.757246,
+    "lng": -76.2292663
+  },
+  "1255 S. Caton Ave., Baltimore, MD 21227": {
+    "lat": 39.2679239,
+    "lng": -76.6678629
+  },
+  "1056 Richmond Tappahannock Hwy, Manquin, VA 23106": {
+    "lat": 37.6962956,
+    "lng": -77.1690832
+  },
+  "3411 S Main St, Harrisonburg, VA 22801": {
+    "lat": 38.4029129,
+    "lng": -78.9110533
+  },
+  "310 N 33rd ST, Richmond, VA 23223": {
+    "lat": 37.5274437,
+    "lng": -77.4114991
+  },
+  "421 W Main St, Waynesboro, VA 22980": {
+    "lat": 38.0688536,
+    "lng": -78.8891896
+  },
+  "21175 S. Main St., Carson,, CA 90745": {
+    "lat": 33.8347208,
+    "lng": -118.2787676
+  },
+  "10212 Quaker Rd, Dinwiddie, VA 23841": {
+    "lat": 37.1311424,
+    "lng": -77.5279281
+  },
+  "8763 Virginia Meadows Dr, Manassas, VA 20109": {
+    "lat": 38.7690611,
+    "lng": -77.5572575
+  },
+  "2533 Battlefield Blvd S., Chesapeake, VA 23322": {
+    "lat": 36.747739,
+    "lng": -76.2452196
+  },
+  "829 Lynnhaven Pkwy, Virginia Beach, VA 23452": {
+    "lat": 36.8129757,
+    "lng": -76.0725223
+  },
+  "4620 Lee Highway, Arlington, VA 22207": {
+    "lat": 38.8984807,
+    "lng": -77.1197901
+  },
+  "623 Hardscrabble Drive, Hillsborough, NC 27278": {
+    "lat": 36.1325602,
+    "lng": -78.9670683
+  },
+  "1129 Production RD, Norfolk, VA 23502": {
+    "lat": 36.8574207,
+    "lng": -76.2430297
+  },
+  "153 Bowles Road, Agawam, MA 01001": {
+    "lat": 42.0559911,
+    "lng": -72.6541591
+  },
+  "2985 Prosperity Ave, Fairfax, VA 22031": {
+    "lat": 38.8709611,
+    "lng": -77.2372142
+  },
+  "1 Tower Center Blvd, East Brunswick, NJ 08816": {
+    "lat": 40.479005,
+    "lng": -74.406419
+  },
+  "128 N County Dr, Waverly, VA 23890": {
+    "lat": 37.037511,
+    "lng": -77.093692
+  },
+  "501 Central Drive, Virginia Beach, VA 23454": {
+    "lat": 36.8247262,
+    "lng": -76.0530011
+  },
+  "1733 Arlington Rd, Richmond, VA 23230": {
+    "lat": 37.575116,
+    "lng": -77.46638
+  },
+  "430 Lakewood Drive, Mineral, VA 23117": {
+    "lat": 39.5685869,
+    "lng": -78.7499626
+  },
+  "8514 Sanford Dr, Henrico, VA 23228": {
+    "lat": 37.6289002,
+    "lng": -77.5041971
+  },
+  "801 Grove Rd, Midlothian, VA 23114": {
+    "lat": 37.4931502,
+    "lng": -77.64719
+  },
+  "1607 Rhoadmiller Street, Richmond, VA 23220": {
+    "lat": 37.5664307,
+    "lng": -77.4583271
   }
 }

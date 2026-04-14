@@ -1,6 +1,21 @@
 [
   {
-    "id": 16,
+    "id": 21,
+    "type": "Contractor",
+    "name": "A&M Roofing",
+    "logo": "",
+    "phone": "(703) 584-5876",
+    "website": "https://www.amroofingva.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Springfield",
+    "description": "A&M Roofing specializes in roof replacements, siding, gutters, windows & doors, and skylight installations. Serving Northern Virginia with quality, integrity, and certified craftsmanship. Family-owned.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 93,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -13,7 +28,72 @@
     "lng": -77.4602526
   },
   {
-    "id": 24,
+    "id": 19,
+    "type": "Contractor",
+    "name": "Alexandria Roofing Co., Inc.",
+    "logo": "",
+    "phone": "(703) 354-3531",
+    "website": "https://alexandriaroofing.com/",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Alexandria",
+    "description": "Alexandria Roofing works with all types of roofing materials, including shingles, imitation slate, copper, slate, pre-painted metal, and more.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 65,
+    "type": "Contractor",
+    "name": "Alonzo Ours Construction, Inc.",
+    "logo": "",
+    "phone": "(703) 368-7535",
+    "website": "https://www.alonzooursconstruction.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Manassas",
+    "description": "Our experts perform steep & low slope roofing installations, emergency repairs, maintenance, and can detect leaks with comprehensive inspections.",
+    "lat": 38.7690611,
+    "lng": -77.5572575
+  },
+  {
+    "id": 55,
+    "type": "Distributor & Manufacturer",
+    "name": "American WeatherStar",
+    "logo": "",
+    "phone": "(800) 771-6643",
+    "website": "www.americanweatherstar.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Irvington",
+    "description": "American WeatherStar manufactures energy-efficient, fluid-applied roof restoration systems. We partner with contractors nationwide to deliver high-performance solutions that protect and restore commercial and industrial roofs with quality, reliabilit",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 29,
+    "type": "Contractor",
+    "name": "Andrews Roofing",
+    "logo": "",
+    "phone": "(757) 399-3066",
+    "website": "http://www.andrewsroofing.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Portsmouth",
+    "description": "Our projects range from residential roofing to commercial roofing to industrial roofing to gutter system installation and from simple repairs to installation of new or replacement roofs.",
+    "lat": 36.8320081,
+    "lng": -76.297699
+  },
+  {
+    "id": 28,
     "type": "Distributor & Manufacturer",
     "name": "Architectural Exterior Solutions, LLC",
     "logo": "",
@@ -26,7 +106,7 @@
     "lng": -79.977825
   },
   {
-    "id": 10,
+    "id": 14,
     "type": "Distributor & Manufacturer",
     "name": "Atlantic Construction Sales",
     "logo": "",
@@ -39,7 +119,23 @@
     "lng": -79.1686446
   },
   {
-    "id": 30,
+    "id": 92,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlas Roofing Corporation",
+    "logo": "",
+    "phone": "(804) 402-8040",
+    "website": "www.atlasroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Mineral",
+    "description": "Manufacturer of asphalt shingles and accessories.",
+    "lat": 39.5685869,
+    "lng": -78.7499626
+  },
+  {
+    "id": 76,
     "type": "Contractor",
     "name": "Baker Roofing",
     "logo": "",
@@ -57,7 +153,7 @@
     "lng": null
   },
   {
-    "id": 14,
+    "id": 8,
     "type": "Contractor",
     "name": "Beck Roofing Corporation",
     "logo": "",
@@ -72,7 +168,37 @@
     "lng": -76.2490345
   },
   {
-    "id": 23,
+    "id": 70,
+    "type": "Contractor",
+    "name": "Better View Roofing and Siding",
+    "logo": "",
+    "phone": "(757) 689-6210",
+    "website": "www.yourbetterroofing.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Virginia Beach",
+    "description": "We are a class A residential and commercial contractor that specializes in roofing, solar, siding, gutters, windows, doors, and shooter defense products.",
+    "lat": 36.8129757,
+    "lng": -76.0725223
+  },
+  {
+    "id": 9,
+    "type": "Contractor",
+    "name": "Block Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 855-0400",
+    "website": "https://blockroofingcorp.com/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Virginia Beach",
+    "description": "We do everything from large complex projects to minor repairs for commercial businesses in Hampton Roads and Northeast North Carolina.",
+    "lat": 36.8950631,
+    "lng": -76.1899039
+  },
+  {
+    "id": 3,
     "type": "Contractor",
     "name": "Blue Ridge Roofing, Inc.",
     "logo": "",
@@ -85,7 +211,53 @@
     "lng": -78.4707376
   },
   {
-    "id": 20,
+    "id": 16,
+    "type": "Contractor",
+    "name": "BMS Roofing Corporation",
+    "logo": "",
+    "phone": "(703) 631-3390",
+    "website": "http://bmsroofing.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Manassas",
+    "description": "Quality craftsmanship and materials. BMS Roofing Corporation offers roofing, skylight, solar, gutter and siding.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 13,
+    "type": "Associate Professional",
+    "name": "Brauner Safety Services Inc.",
+    "logo": "",
+    "phone": "407-403-3959",
+    "website": "www.braunersafety.com , www.certatraining.com",
+    "serviceArea": [],
+    "city": "Aventura",
+    "description": "Safety Consultant and Trainer",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 64,
+    "type": "Contractor",
+    "name": "Brown Brothers Roofing, Inc.",
+    "logo": "",
+    "phone": "(804) 469-7759",
+    "website": "https://brownbrothersroofingrva.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Dinwiddie",
+    "description": "Since 1967, Brown Brothers Roofing Inc. has repaired and installed roofs in the Tri-State Area. We work on commercial and residential buildings and have several brands and styles.",
+    "lat": 37.1311424,
+    "lng": -77.5279281
+  },
+  {
+    "id": 11,
     "type": "Contractor",
     "name": "Brown Roofing Company, Inc.",
     "logo": "",
@@ -100,7 +272,144 @@
     "lng": -77.5416589
   },
   {
-    "id": 33,
+    "id": 100,
+    "type": "Contractor",
+    "name": "C.L. Wright Roofing Inc.",
+    "logo": "",
+    "phone": "(804) 378-7011",
+    "website": "www.clwrightroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Midlothian",
+    "description": "We specialize in new construction, the removal and replacement of all types of roofs, including all heavy weight roofing, Cedar, Grand Manor, and Composition Shingles. We also offer gutter, skylight, window, and ventilation products and services.",
+    "lat": 37.4931502,
+    "lng": -77.64719
+  },
+  {
+    "id": 99,
+    "type": "Contractor",
+    "name": "CB Chandler Companies",
+    "logo": "",
+    "phone": "804-344-8085",
+    "website": "www.cbchandler.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Henrico",
+    "description": "Commercial Roofing Contractor",
+    "lat": 37.6289002,
+    "lng": -77.5041971
+  },
+  {
+    "id": 57,
+    "type": "Contractor",
+    "name": "Chase Roofing",
+    "logo": "",
+    "phone": "(757) 872-0700",
+    "website": "https://www.chaseroofingva.net/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Yorktown",
+    "description": "Full-service roofing on Virginia Peninsula - residential roofing, metal roofing, and, commercial roofing.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 20,
+    "type": "Contractor",
+    "name": "Clark Roofing and Siding, Inc.",
+    "logo": "",
+    "phone": "(757) 485-1000",
+    "website": "www.clarkroofingandsiding.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "Roofing, Siding, Windows, Decks, Porches, and other exterior projects",
+    "lat": 36.7149945,
+    "lng": -76.3172859
+  },
+  {
+    "id": 51,
+    "type": "Contractor",
+    "name": "Colonial Roofing of Virginia Inc.",
+    "logo": "",
+    "phone": "(804) 473-9005",
+    "website": "http://www.colonialroofingofvirginia.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Manquin",
+    "description": "Locally-owned and operated roofing company taking care of the roofs over the homes and businesses in the greater Richmond area, as well as Virginia's Northern Neck and Middle Peninsula regions.",
+    "lat": 37.6962956,
+    "lng": -77.1690832
+  },
+  {
+    "id": 36,
+    "type": "Contractor",
+    "name": "Commonwealth Exteriors LLC",
+    "logo": "",
+    "phone": "(540) 505-2084",
+    "website": "https://commonwealthexteriors.com/",
+    "serviceArea": [
+      "Southwest"
+    ],
+    "city": "Floyd",
+    "description": "Commonwealth Exteriors is a roofing and exteriors finish company based out of Floyd County, Virginia. We serve new and existing commercial and residential projects in Virginia, West Virginia, North Carolina, and some of South Carolina and Maryland.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 15,
+    "type": "Contractor",
+    "name": "Cross Timbers Roofing",
+    "logo": "",
+    "phone": "(804) 275-9373",
+    "website": "www.crosstimbersroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "N. Chesterfield",
+    "description": "Cross Timbers Roofing has been Central Virginia’s trusted roofing company for over 30 years. We are the preferred choice for homeowners and commercial contractors who want attention to detail and quality materials on their roofs.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 25,
+    "type": "Contractor",
+    "name": "Davidson Roofing Company",
+    "logo": "",
+    "phone": "(804) 672-0540",
+    "website": "www.davidsonroofingcompany.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Henrico",
+    "description": "From small repairs to complete replacements, our diverse and knowledgeable team allows us to provide the highest quality work to fit to each of our customer’s needs.",
+    "lat": 37.6038799,
+    "lng": -77.4906136
+  },
+  {
+    "id": 26,
+    "type": "Contractor",
+    "name": "Davis Roofing, Inc.",
+    "logo": "",
+    "phone": "(703) 569-3388",
+    "website": "http://www.davis-roofing.net",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Springfield",
+    "description": "At Davis Roofing, Inc. we pride ourselves in delivering outstanding service at an affordable price. We provide the same services as the area’s largest roofing companies for a fraction of the cost.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 22,
     "type": "Contractor",
     "name": "DeShazo & Son Roofing, Inc.",
     "logo": "",
@@ -116,7 +425,7 @@
     "lng": -77.5211629
   },
   {
-    "id": 15,
+    "id": 1,
     "type": "Contractor",
     "name": "DeShazo, J. King, III, Inc.",
     "logo": "",
@@ -131,7 +440,23 @@
     "lng": null
   },
   {
-    "id": 6,
+    "id": 73,
+    "type": "Distributor & Manufacturer",
+    "name": "Diamond P Building Products (Duro-Last Roofing)",
+    "logo": "",
+    "phone": "9192659045",
+    "website": "",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Hillsborough",
+    "description": "Representatives for Duro-Last Roofing",
+    "lat": 36.1325602,
+    "lng": -78.9670683
+  },
+  {
+    "id": 38,
     "type": "Contractor",
     "name": "DryHome Roofing & Siding Inc.",
     "logo": "",
@@ -146,7 +471,7 @@
     "lng": null
   },
   {
-    "id": 25,
+    "id": 52,
     "type": "Distributor & Manufacturer",
     "name": "Dunn & Abee, Inc.",
     "logo": "",
@@ -159,7 +484,42 @@
     "lng": -80.8193519
   },
   {
-    "id": 2,
+    "id": 82,
+    "type": "Distributor & Manufacturer",
+    "name": "Englert Inc",
+    "logo": "",
+    "phone": "703-268-0044",
+    "website": "www.englertinc.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "East Brunswick",
+    "description": "",
+    "lat": 40.479005,
+    "lng": -74.406419
+  },
+  {
+    "id": 62,
+    "type": "Distributor & Manufacturer",
+    "name": "Epilay Roofing Underlayments",
+    "logo": "",
+    "phone": "(310) 320-6300",
+    "website": "www.epilay.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Carson,",
+    "description": "Roofing Underlayment (Synthetic Felt, Ice and Water and High Temp)",
+    "lat": 33.8347208,
+    "lng": -118.2787676
+  },
+  {
+    "id": 39,
     "type": "Contractor",
     "name": "Gupton Insulation Co., Inc.",
     "logo": "",
@@ -174,7 +534,7 @@
     "lng": null
   },
   {
-    "id": 29,
+    "id": 41,
     "type": "Consultant & Design Professional",
     "name": "Hale Associates LLC",
     "logo": "",
@@ -187,7 +547,7 @@
     "lng": -77.2304506
   },
   {
-    "id": 21,
+    "id": 5,
     "type": "Distributor & Manufacturer",
     "name": "Handy Distribution",
     "logo": "",
@@ -200,7 +560,7 @@
     "lng": null
   },
   {
-    "id": 28,
+    "id": 32,
     "type": "Associate Professional",
     "name": "Harry R. James Insurance Agency",
     "logo": "",
@@ -213,7 +573,7 @@
     "lng": -77.5230699
   },
   {
-    "id": 5,
+    "id": 33,
     "type": "Contractor",
     "name": "Hermitage Roofing Company, Inc.",
     "logo": "",
@@ -231,7 +591,57 @@
     "lng": null
   },
   {
-    "id": 32,
+    "id": 90,
+    "type": "Contractor",
+    "name": "Hertless Brothers Roofing, Inc.",
+    "logo": "",
+    "phone": "(804) 340-0181",
+    "website": "www.HertlessBrothers.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "Full Service Commercial and Custom Residential roofing Contractor Serving Richmond, VA since 1935.",
+    "lat": 37.575116,
+    "lng": -77.46638
+  },
+  {
+    "id": 53,
+    "type": "Distributor & Manufacturer",
+    "name": "Integrated Products Group",
+    "logo": "",
+    "phone": "(252) 558-8155",
+    "website": "",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 66,
+    "type": "Contractor",
+    "name": "International Roofing Corp.",
+    "logo": "",
+    "phone": "(804) 648-7911",
+    "website": "https://www.ir-roof.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Richmond",
+    "description": "Commercial Roofing Contractor",
+    "lat": 37.5598466,
+    "lng": -77.4136929
+  },
+  {
+    "id": 61,
     "type": "Contractor",
     "name": "J.D. Miles & Sons, Inc.",
     "logo": "",
@@ -246,7 +656,7 @@
     "lng": -76.2769162
   },
   {
-    "id": 12,
+    "id": 80,
     "type": "Contractor",
     "name": "J.R. Roofing & Siding Co., Inc.",
     "logo": "",
@@ -261,7 +671,24 @@
     "lng": null
   },
   {
-    "id": 17,
+    "id": 58,
+    "type": "Distributor & Manufacturer",
+    "name": "Johns Manville",
+    "logo": "",
+    "phone": "706-508-3875",
+    "website": "",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Richmond",
+    "description": "Commercial Roofing Manufacturer",
+    "lat": 37.5274437,
+    "lng": -77.4114991
+  },
+  {
+    "id": 88,
     "type": "Contractor",
     "name": "Katchmark Construction, Inc",
     "logo": "",
@@ -277,7 +704,7 @@
     "lng": -76.2321141
   },
   {
-    "id": 13,
+    "id": 72,
     "type": "Contractor",
     "name": "Kevin Parker Roofing Contractor, Inc.",
     "logo": "",
@@ -292,7 +719,39 @@
     "lng": null
   },
   {
-    "id": 22,
+    "id": 69,
+    "type": "Contractor",
+    "name": "Kyro Builders LLC",
+    "logo": "",
+    "phone": "(757) 500-2500",
+    "website": "http://www.kyrobuilders.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "We specialize in roofing, exterior renovations, and custom exterior construction, delivering high-quality results with a strong focus on integrity, communication, and long-term value.",
+    "lat": 36.747739,
+    "lng": -76.2452196
+  },
+  {
+    "id": 42,
+    "type": "Contractor",
+    "name": "Line by Line Roofing",
+    "logo": "",
+    "phone": "(757) 251-9022",
+    "website": "https://linebylineroofing.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Williamsburg",
+    "description": "Roofing contractor offering residential and commercial installations, repairs, and 24-hour storm damage services.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 17,
     "type": "Contractor",
     "name": "Loudoun Valley Roofing",
     "logo": "",
@@ -307,7 +766,22 @@
     "lng": -77.7158753
   },
   {
-    "id": 26,
+    "id": 74,
+    "type": "Distributor & Manufacturer",
+    "name": "Mid-Atlantic Roofing Supply",
+    "logo": "",
+    "phone": "757-585-8286",
+    "website": "www.marsupply.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Distribution",
+    "lat": 36.8574207,
+    "lng": -76.2430297
+  },
+  {
+    "id": 63,
     "type": "Contractor",
     "name": "Mills Roofing LLC",
     "logo": "",
@@ -323,7 +797,169 @@
     "lng": -77.8432435
   },
   {
-    "id": 1,
+    "id": 59,
+    "type": "Consultant & Design Professional",
+    "name": "Monarch Consulting Services, LLC",
+    "logo": "",
+    "phone": "(804) 690-0312",
+    "website": "http://www.monarchconsultingservicesva.com",
+    "serviceArea": [],
+    "city": "Mechanicsville",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 23,
+    "type": "Contractor",
+    "name": "N. W. Martin & Brothers Inc",
+    "logo": "",
+    "phone": "(804) 648-2811",
+    "website": "https://www.nwmartinroof.com/",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "We specialize in commercial roof installation, repair, replacement, and preventative maintenance for all major systems like TPO, EPDM, PVC, modified bitumen, and metal.",
+    "lat": 37.556342,
+    "lng": -77.4326833
+  },
+  {
+    "id": 31,
+    "type": "Contractor",
+    "name": "National Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 465-1188",
+    "website": "http://nationalroofingcorp.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Suffolk",
+    "description": "National Roofing Corporation offers commercial roofing for the Virginia Beach area.",
+    "lat": 36.8175691,
+    "lng": -76.4578108
+  },
+  {
+    "id": 37,
+    "type": "Contractor",
+    "name": "Noverra Exteriors",
+    "logo": "",
+    "phone": "(703) 936-0331",
+    "website": "www.noverraexteriors.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Fairfax",
+    "description": "Whether you’re planning a new roof, upgrading your siding & gutters, replacing your windows, or building the perfect deck or porch, we’ll take the time to understand your vision and provide clear recommendations tailored to your home.",
+    "lat": 38.86354,
+    "lng": -77.2755324
+  },
+  {
+    "id": 6,
+    "type": "Contractor",
+    "name": "Old Dominion Roofing & Construction, Inc.",
+    "logo": "",
+    "phone": "(804) 225-7164",
+    "website": "http://www.olddominionroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "Specializing in Flat Roofs for Industrial and Commercial Industries",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 84,
+    "type": "Distributor & Manufacturer",
+    "name": "Old Dominion Sales Group",
+    "logo": "",
+    "phone": "8049082941",
+    "website": "",
+    "serviceArea": [],
+    "city": "Mechanicsville",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 75,
+    "type": "Distributor & Manufacturer",
+    "name": "OMG Roofing Products",
+    "logo": "",
+    "phone": "(443) 994-8157",
+    "website": "www.omgroofing.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Agawam",
+    "description": "",
+    "lat": 42.0559911,
+    "lng": -72.6541591
+  },
+  {
+    "id": 60,
+    "type": "Associate Professional",
+    "name": "On Deck Marketing",
+    "logo": "",
+    "phone": "540-416-1707",
+    "website": "https://www.ondeckmarketing.co/",
+    "serviceArea": [
+      "Southwest"
+    ],
+    "city": "Waynesboro",
+    "description": "Marketing",
+    "lat": 38.0688536,
+    "lng": -78.8891896
+  },
+  {
+    "id": 91,
+    "type": "Contractor",
+    "name": "Owens Corning",
+    "logo": "",
+    "phone": "(757) 739-9997",
+    "website": "",
+    "serviceArea": [],
+    "city": "Annapolis Junction",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 71,
+    "type": "Contractor",
+    "name": "Painter Roofing & Construction",
+    "logo": "",
+    "phone": "(571) 427-2450",
+    "website": "http://www.painterroofing.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Arlington",
+    "description": "Gutter and roofing company also installing windows and skylights for homes and businesses.",
+    "lat": 38.8984807,
+    "lng": -77.1197901
+  },
+  {
+    "id": 89,
+    "type": "Contractor",
+    "name": "Paramount Builders, Inc.",
+    "logo": "",
+    "phone": "(804) 550-3200",
+    "website": "http://www.parmountbuilders.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Virginia Beach",
+    "description": "Paramount Builders has been a trusted name in home improvement for over 30 years, specializing in windows, siding, roofing, gutters, trim and bathrooms.",
+    "lat": 36.8247262,
+    "lng": -76.0530011
+  },
+  {
+    "id": 10,
     "type": "Contractor",
     "name": "Paul Saunders Roofing Company",
     "logo": "",
@@ -338,7 +974,37 @@
     "lng": -77.459153
   },
   {
-    "id": 31,
+    "id": 4,
+    "type": "Contractor",
+    "name": "Peninsula Roofing",
+    "logo": "",
+    "phone": "(757) 872-9555",
+    "website": "https://www.peninsularoof.net/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Newport News",
+    "description": "Serving the residential and commercial roofing needs of Newport News and the surrounding Hampton Roads communities since 1984.",
+    "lat": 37.1646978,
+    "lng": -76.5475811
+  },
+  {
+    "id": 50,
+    "type": "Distributor & Manufacturer",
+    "name": "Petersen Aluminum Corporation",
+    "logo": "",
+    "phone": "800-344-1400",
+    "website": "",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Baltimore",
+    "description": "",
+    "lat": 39.2679239,
+    "lng": -76.6678629
+  },
+  {
+    "id": 94,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -351,7 +1017,37 @@
     "lng": -77.4135183
   },
   {
-    "id": 7,
+    "id": 78,
+    "type": "Contractor",
+    "name": "Pond Roofing",
+    "logo": "",
+    "phone": "(703) 573-8000",
+    "website": "http://www.pondroofing.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Fairfax",
+    "description": "Expert roof replacement, siding, windows, and doors across Northern VA.",
+    "lat": 38.8709611,
+    "lng": -77.2372142
+  },
+  {
+    "id": 77,
+    "type": "Contractor",
+    "name": "Preston Roofing Inc.",
+    "logo": "",
+    "phone": "(757) 592-5507",
+    "website": "prestonroofinginc.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Yorktown",
+    "description": "Class A roofing contractor - family owned and operated business with more than 25 years experience serving all of Hampton Roads and Middle Peninsula.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 81,
     "type": "Contractor",
     "name": "Quality Enterprises, Inc.",
     "logo": "",
@@ -364,7 +1060,81 @@
     "lng": null
   },
   {
-    "id": 11,
+    "id": 43,
+    "type": "Contractor",
+    "name": "Rappahannock Roofing Co., Inc.",
+    "logo": "",
+    "phone": "(540) 373-5008",
+    "website": "www.RappRoofCo.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Fredericksburg",
+    "description": "Established in 1968, we are the leading commercial roofing company in the Fredericksburg, Virginia region.",
+    "lat": 38.3031837,
+    "lng": -77.4605399
+  },
+  {
+    "id": 67,
+    "type": "Contractor",
+    "name": "Red Tail Construction, Inc",
+    "logo": "",
+    "phone": "(804) 564-8066",
+    "website": "",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Sutherland",
+    "description": "Red Tail Construction, Inc is a Specialty Contractor that serves the Sutherland, VA area and specializes in Roofing.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 47,
+    "type": "Distributor & Manufacturer",
+    "name": "Region Rents",
+    "logo": "",
+    "phone": "757-410-2059",
+    "website": "www.regionrentsva.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "Equipment Rental, forklifts, manlifts (JLG) material handling",
+    "lat": 36.757246,
+    "lng": -76.2292663
+  },
+  {
+    "id": 45,
+    "type": "Consultant & Design Professional",
+    "name": "REI Engineers",
+    "logo": "",
+    "phone": "(757) 961-7224",
+    "website": "https://www.reiengineers.com/",
+    "serviceArea": [],
+    "city": "Virginia Beach",
+    "description": "We provide roof and wall system evaluation testing, inspection and design services.  Services include infrared moisture surveys, wind uplift testing, fastener pull-out testing, condition surveys and litigation support services.",
+    "lat": 36.8163106,
+    "lng": -76.1685747
+  },
+  {
+    "id": 79,
+    "type": "Contractor",
+    "name": "Reitzel Home Improvement, Inc.",
+    "logo": "",
+    "phone": "(757) 513-7053",
+    "website": "http://www.reitzelexteriors.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Virginia Beach",
+    "description": "We serve both residential and commercial clients across Virginia Beach and the surrounding Hampton Roads. Our team installs all types of roofing—shingles, metal, EPDM, TPO, cedar, slate, and more.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 34,
     "type": "Contractor",
     "name": "Roof Engineering Corporation",
     "logo": "",
@@ -379,7 +1149,23 @@
     "lng": -76.2446696
   },
   {
-    "id": 4,
+    "id": 95,
+    "type": "Contractor",
+    "name": "Roof Services a Tecta America Company, LLC",
+    "logo": "",
+    "phone": "(804) 222-6004",
+    "website": "http://www.roofservicescorp.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Richmond",
+    "description": "Full service commercial roofing contractor.  24 hour emergency repair service.  Metal roofing, sheet metal fabrication. Single Ply, Built Up. Integrity - Quality - Service",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 68,
     "type": "Contractor",
     "name": "Roof Systems of Virginia Inc.",
     "logo": "",
@@ -395,7 +1181,93 @@
     "lng": -76.2913495
   },
   {
+    "id": 30,
+    "type": "Associate Professional",
+    "name": "RoofersCoffeeShop",
+    "logo": "",
+    "phone": "",
+    "website": "https://www.rooferscoffeeshop.com/",
+    "serviceArea": [],
+    "city": "Camp Sherman",
+    "description": "RCS is an award-winning, B2B, Building & Construction website and B2B Social Media/Online Community as recognized in the 2019 Folio: Eddie & Ozzie Awards and the 2021 Folio: Eddie & Ozzie Awards.",
+    "lat": 44.4600866,
+    "lng": -121.6432333
+  },
+  {
+    "id": 101,
+    "type": "Contractor",
+    "name": "Roofing Innovations",
+    "logo": "",
+    "phone": "(804) 447-8426",
+    "website": "https://roofinginnovation.com/",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "Roofing Contractor based in Central VA, we can service all of your roof needs.",
+    "lat": 37.5664307,
+    "lng": -77.4583271
+  },
+  {
+    "id": 49,
+    "type": "Distributor & Manufacturer",
+    "name": "Roofing Tools & Equipment, Inc.",
+    "logo": "",
+    "phone": "(252) 985 0945",
+    "website": "www.roofingtool.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Wilson",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 44,
+    "type": "Contractor",
+    "name": "Roofmax of Tidewater LLC",
+    "logo": "",
+    "phone": "(757) 720-6797",
+    "website": "www.roofmaxtw.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "We are a full service commercial roofing and exterior contractor providing repairs, full replacement, and new construction in Northeast NC and Hampton Roads.",
+    "lat": 36.7858003,
+    "lng": -76.290767
+  },
+  {
     "id": 18,
+    "type": "Associate Professional",
+    "name": "RoundTable Solutions",
+    "logo": "",
+    "phone": "(540) 487-9675",
+    "website": "",
+    "serviceArea": [],
+    "city": "Staunton",
+    "description": "",
+    "lat": 38.148275,
+    "lng": -79.0741135
+  },
+  {
+    "id": 83,
+    "type": "Contractor",
+    "name": "Row Mic Construction Inc",
+    "logo": "",
+    "phone": "(804) 834-2091",
+    "website": "https://www.facebook.com/rowmic",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Waverly",
+    "description": "Class A roofing contractor",
+    "lat": 37.037511,
+    "lng": -77.093692
+  },
+  {
+    "id": 85,
     "type": "Distributor & Manufacturer",
     "name": "Safren Sales",
     "logo": "",
@@ -408,7 +1280,7 @@
     "lng": -78.0317541
   },
   {
-    "id": 3,
+    "id": 86,
     "type": "Distributor & Manufacturer",
     "name": "Sansbury & Associates LLC",
     "logo": "",
@@ -421,7 +1293,36 @@
     "lng": -77.6779285
   },
   {
-    "id": 9,
+    "id": 27,
+    "type": "Contractor",
+    "name": "SlopePro",
+    "logo": "",
+    "phone": "(757) 647-0959",
+    "website": "www.slopeproroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Richmond",
+    "description": "Residential and Commercial Roofing Company",
+    "lat": 37.5772592,
+    "lng": -77.3965273
+  },
+  {
+    "id": 40,
+    "type": "Contractor",
+    "name": "SMRCA",
+    "logo": "",
+    "phone": "586-759-2140",
+    "website": "",
+    "serviceArea": [],
+    "city": "Shelby Twp",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 97,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -434,7 +1335,7 @@
     "lng": -77.4926077
   },
   {
-    "id": 8,
+    "id": 48,
     "type": "Contractor",
     "name": "Strong Ridge Construction LLC",
     "logo": "",
@@ -449,7 +1350,25 @@
     "lng": -76.2334103
   },
   {
-    "id": 27,
+    "id": 12,
+    "type": "Associate Professional",
+    "name": "The AI Agency USA",
+    "logo": "",
+    "phone": "(434) 270-3622",
+    "website": "https://theaiagencyusa.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Charlottesville",
+    "description": "With a team in Charlottesville, The AI Agency USA builds custom voice automation systems that help roofing companies capture every lead, eliminate missed calls, and streamline client communication.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 35,
     "type": "Contractor",
     "name": "Thomas Roofing & Supply, Inc.",
     "logo": "",
@@ -464,7 +1383,93 @@
     "lng": null
   },
   {
-    "id": 19,
+    "id": 46,
+    "type": "Contractor",
+    "name": "Timothy's Roofing Co.,Inc.",
+    "logo": "",
+    "phone": "(703) 820-6065",
+    "website": "https://timothysroofing.com/",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Alexandria",
+    "description": "Dedicated to providing the highest quality workmanship, the most advanced roofing technology, and the smartest solutions for all types of residential roofing systems.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 7,
+    "type": "Distributor & Manufacturer",
+    "name": "Triangle Fastener",
+    "logo": "",
+    "phone": "",
+    "website": "",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 87,
+    "type": "Contractor",
+    "name": "TST Roofing & Glazing",
+    "logo": "",
+    "phone": "(757) 452-6955",
+    "website": "https://www.tstroofandglass.com/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Virginia Beach",
+    "description": "TST Roofing specializes in the installation of new roofing, re-roofing, and/or repair of existing roofs in occupied buildings for all major roofing systems. TST has a Production Division, Repair Division, and an Exteriors Division.",
+    "lat": 36.7816627,
+    "lng": -76.0109667
+  },
+  {
+    "id": 24,
+    "type": "Contractor",
+    "name": "United Roofing Contractors Inc",
+    "logo": "",
+    "phone": "(540) 869-2999",
+    "website": "",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Middletown",
+    "description": "Flat roofing specialist, in Middletown, Virginia, providing services for commercial buildings since 1989.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 56,
+    "type": "Contractor",
+    "name": "Valley Roofing",
+    "logo": "",
+    "phone": "(540) 820-2705",
+    "website": "https://valroofing.com/",
+    "serviceArea": [
+      "Southwest"
+    ],
+    "city": "Harrisonburg",
+    "description": "Roofing, Gutters, Skylights, Exteriors -50 Year Warranty Options.",
+    "lat": 38.4029129,
+    "lng": -78.9110533
+  },
+  {
+    "id": 54,
+    "type": "Associate Professional",
+    "name": "Vandeventer Black LLP",
+    "logo": "",
+    "phone": "(757) 446-8672",
+    "website": "https://www.vanblacklaw.com/",
+    "serviceArea": [],
+    "city": "Norfolk",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 2,
     "type": "Contractor",
     "name": "W.T. Anderson Corp.",
     "logo": "",
@@ -477,5 +1482,38 @@
     "description": "Premium roofing, siding, window and guttering services.",
     "lat": 36.8698208,
     "lng": -76.2335969
+  },
+  {
+    "id": 96,
+    "type": "Contractor",
+    "name": "Waters Roofing Company",
+    "logo": "",
+    "phone": "(804) 800-5959",
+    "website": "https://woodelrs.com/",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Glen Allen",
+    "description": "Specializing in a wide range of roofing services for residential and commercial properties.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 98,
+    "type": "Contractor",
+    "name": "Woodel Roof Systems, Inc.",
+    "logo": "",
+    "phone": "(804) 489-7876",
+    "website": "https://www.woodelrs.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Ashland",
+    "description": "Specializes in residential & commercial roofing.",
+    "lat": null,
+    "lng": null
   }
 ]
