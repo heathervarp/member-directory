@@ -23,7 +23,7 @@
     "website": "http://www.abcsupply.com",
     "serviceArea": [],
     "city": "Richmond",
-    "description": "",
+    "description": "Windows, gutters, and siding for residential and commercial buildings. Largest roofing and vinyl siding wholesale distributor in the United States",
     "lat": 37.487689,
     "lng": -77.4602526
   },
@@ -98,10 +98,12 @@
     "name": "Architectural Exterior Solutions, LLC",
     "logo": "",
     "phone": "(804) 658-9533",
-    "website": "",
-    "serviceArea": [],
+    "website": "https://www.linkedin.com/company/architectural-exterior-solutions/",
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Roanoke",
-    "description": "",
+    "description": "A manufacturer rep firm, representing first in class building materials for the commercial building envelope.",
     "lat": 37.2641602,
     "lng": -79.977825
   },
@@ -112,9 +114,11 @@
     "logo": "",
     "phone": "(434) 528-9156",
     "website": "http://www.atlanticconstructionsales.com",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Lynchburg",
-    "description": "",
+    "description": "Commercial roofing solutions from elite manufacturers.",
     "lat": 37.411278,
     "lng": -79.1686446
   },
@@ -126,8 +130,7 @@
     "phone": "(804) 402-8040",
     "website": "www.atlasroofing.com",
     "serviceArea": [
-      "Greater Richmond Area",
-      "Tidewater"
+      "Statewide"
     ],
     "city": "Mineral",
     "description": "Manufacturer of asphalt shingles and accessories.",
@@ -477,9 +480,11 @@
     "logo": "",
     "phone": "(704) 930-8377",
     "website": "http://www.dunnabee.com",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Charlotte",
-    "description": "",
+    "description": "Stocking distributor of commercial roofing equipment, supplies and safety items.",
     "lat": 35.2639199,
     "lng": -80.8193519
   },
@@ -489,14 +494,12 @@
     "name": "Englert Inc",
     "logo": "",
     "phone": "703-268-0044",
-    "website": "www.englertinc.com",
+    "website": "https://www.englertinc.com/",
     "serviceArea": [
-      "Northern Virginia",
-      "Greater Richmond Area",
-      "Tidewater"
+      "Statewide"
     ],
     "city": "East Brunswick",
-    "description": "",
+    "description": "Wide range of standing seam metal roofing systems and panel profiles, widths, and finishes to meet any design objective.",
     "lat": 40.479005,
     "lng": -74.406419
   },
@@ -539,7 +542,7 @@
     "name": "Hale Associates LLC",
     "logo": "",
     "phone": "(804) 629-2366",
-    "website": "",
+    "website": "https://www.roofprocurement.com/",
     "serviceArea": [],
     "city": "Disputanta",
     "description": "Full service roof consulting",
@@ -553,9 +556,11 @@
     "logo": "",
     "phone": "(804) 354-9576",
     "website": "http://www.nbhandy.com",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Richmond",
-    "description": "",
+    "description": "Leading wholesale distributor of metals, HVAC, commercial roofing, and machinery products.",
     "lat": null,
     "lng": null
   },
@@ -678,12 +683,10 @@
     "phone": "706-508-3875",
     "website": "",
     "serviceArea": [
-      "Greater Richmond Area",
-      "Tidewater",
-      "Southwest"
+      "Statewide"
     ],
     "city": "Richmond",
-    "description": "Commercial Roofing Manufacturer",
+    "description": "Manufacturer of premium-quality insulation, commercial roofing and fibers and nonwovens for commercial, industrial and residential applications.",
     "lat": 37.5274437,
     "lng": -77.4114991
   },
@@ -770,13 +773,13 @@
     "type": "Distributor & Manufacturer",
     "name": "Mid-Atlantic Roofing Supply",
     "logo": "",
-    "phone": "757-585-8286",
-    "website": "www.marsupply.com",
+    "phone": "(757) 585-8286",
+    "website": "https://www.marsupply.com/",
     "serviceArea": [
-      "Tidewater"
+      "Statewide"
     ],
     "city": "Norfolk",
-    "description": "Distribution",
+    "description": "Residential and commercial roofing supplies and accessories for projects and customers of all sizes.",
     "lat": 36.8574207,
     "lng": -76.2430297
   },
@@ -805,7 +808,7 @@
     "website": "http://www.monarchconsultingservicesva.com",
     "serviceArea": [],
     "city": "Mechanicsville",
-    "description": "",
+    "description": "Monarch Consulting Services is based in Richmond, Virginia and primarily serves the Mid-Atlantic Region.",
     "lat": null,
     "lng": null
   },
@@ -874,9 +877,11 @@
     "type": "Distributor & Manufacturer",
     "name": "Old Dominion Sales Group",
     "logo": "",
-    "phone": "8049082941",
+    "phone": "(804) 908-2941",
     "website": "",
-    "serviceArea": [],
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
     "city": "Mechanicsville",
     "description": "",
     "lat": null,
@@ -890,13 +895,10 @@
     "phone": "(443) 994-8157",
     "website": "www.omgroofing.com",
     "serviceArea": [
-      "Northern Virginia",
-      "Greater Richmond Area",
-      "Tidewater",
-      "Southwest"
+      "Statewide"
     ],
     "city": "Agawam",
-    "description": "",
+    "description": "High-performance, Factory Mutual-approved products for the commercial roofing industry.",
     "lat": 42.0559911,
     "lng": -72.6541591
   },
@@ -993,13 +995,13 @@
     "type": "Distributor & Manufacturer",
     "name": "Petersen Aluminum Corporation",
     "logo": "",
-    "phone": "800-344-1400",
+    "phone": "(800) 344-1400",
     "website": "",
     "serviceArea": [
-      "Northern Virginia"
+      "Statewide"
     ],
     "city": "Baltimore",
-    "description": "",
+    "description": "Architectural metal wall panels & metal roofing systems since 1965, delivering proven strength & durability.",
     "lat": 39.2679239,
     "lng": -76.6678629
   },
@@ -1095,7 +1097,7 @@
     "name": "Region Rents",
     "logo": "",
     "phone": "757-410-2059",
-    "website": "www.regionrentsva.com",
+    "website": "https://www.regionrentsva.com/",
     "serviceArea": [
       "Greater Richmond Area",
       "Tidewater"
@@ -1214,12 +1216,12 @@
     "name": "Roofing Tools & Equipment, Inc.",
     "logo": "",
     "phone": "(252) 985 0945",
-    "website": "www.roofingtool.com",
+    "website": "https://www.roofingtool.com/",
     "serviceArea": [
       "Greater Richmond Area"
     ],
     "city": "Wilson",
-    "description": "",
+    "description": "Superior customer service with in-stock products at a competitive price.",
     "lat": null,
     "lng": null
   },
@@ -1272,10 +1274,10 @@
     "name": "Safren Sales",
     "logo": "",
     "phone": "(703) 967-0045",
-    "website": "",
+    "website": "https://www.safrensales.com/",
     "serviceArea": [],
     "city": "Culpeper",
-    "description": "",
+    "description": "Representing Your Necessary Roofing Products Since 1999",
     "lat": 38.4233599,
     "lng": -78.0317541
   },
@@ -1288,7 +1290,7 @@
     "website": "http://www.sansburyreps.com",
     "serviceArea": [],
     "city": "Midlothian",
-    "description": "",
+    "description": "Independent manufacturer's representative whose Mission Statement is to deliver the highest caliber roofing materials through world class service to quality partners in the commercial roofing industry.",
     "lat": 37.5192188,
     "lng": -77.6779285
   },
@@ -1327,10 +1329,10 @@
     "name": "SRS Building Products",
     "logo": "",
     "phone": "(804) 912-7046",
-    "website": "",
+    "website": "https://www.srsdistribution.com/en/",
     "serviceArea": [],
     "city": "Henrico",
-    "description": "",
+    "description": "Fastest growing distributor of building products in the United States, committed to serving the professional rooﬁng contractor’s business.",
     "lat": 37.6062293,
     "lng": -77.4926077
   },
@@ -1402,11 +1404,11 @@
     "type": "Distributor & Manufacturer",
     "name": "Triangle Fastener",
     "logo": "",
-    "phone": "",
-    "website": "",
+    "phone": "(804) 282-2360",
+    "website": "https://trianglefastener.com/",
     "serviceArea": [],
     "city": "Richmond",
-    "description": "",
+    "description": "Leading supplier of standard and specialty fasteners, tools, sealants, and accessories for commercial construction.",
     "lat": null,
     "lng": null
   },
