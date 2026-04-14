@@ -82,7 +82,9 @@ async function getAccessToken() {
 // ─── Fetch all active members ───────────────────────────
 
 async function fetchContacts(token) {
-  const filter = encodeURIComponent("Status eq Active AND IsMember eq true");
+  const filter = encodeURIComponent(
+    "(Status eq Active OR Status eq PendingRenewal) AND IsMember eq true"
+  );
   const url = `https://api.wildapricot.org/v2.2/accounts/${ACCOUNT_ID}/contacts?$filter=${filter}&$top=500`;
 
   // Initial request returns async result
@@ -218,7 +220,7 @@ async function main() {
   const token = await getAccessToken();
   console.log("Authenticated.");
 
-  console.log("Fetching active members...");
+  console.log("Fetching active + pending-renewal members...");
   const contacts = await fetchContacts(token);
 
   // Filter to directory-eligible members
@@ -242,8 +244,9 @@ async function main() {
     )
       return false;
 
-    // Include all members regardless of bundle role
-    // (Previously excluded "Bundle member" role — keeping all per Heather's feedback Apr 14)
+    // Only include Bundle Coordinators (one per company/bundle)
+    if (!memberRole || memberRole.toLowerCase() !== "bundle coordinator")
+      return false;
 
     return true;
   });
