@@ -806,9 +806,11 @@
     "logo": "",
     "phone": "(804) 690-0312",
     "website": "http://www.monarchconsultingservicesva.com",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Mechanicsville",
-    "description": "Monarch Consulting Services is based in Richmond, Virginia and primarily serves the Mid-Atlantic Region.",
+    "description": "Specializes in professional roof consulting services that include: roof assessment, testing, energy analysis, design, construction management, quality assurance, and development of roof maintenance programs.",
     "lat": null,
     "lng": null
   },
