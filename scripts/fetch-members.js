@@ -242,9 +242,8 @@ async function main() {
     )
       return false;
 
-    // Include Bundle Administrators (coordinators) only
-    // Exclude regular Bundle members
-    if (memberRole === "Bundle member") return false;
+    // Include all members regardless of bundle role
+    // (Previously excluded "Bundle member" role — keeping all per Heather's feedback Apr 14)
 
     return true;
   });
