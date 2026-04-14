@@ -79,49 +79,67 @@ async function getAccessToken() {
   return data.access_token;
 }
 
-// ─── Fetch all active members ───────────────────────────
+// ─── Fetch all active members (with pagination) ─────────
 
-async function fetchContacts(token) {
-  const filter = encodeURIComponent(
-    "(Status eq Active OR Status eq PendingRenewal) AND IsMember eq true"
-  );
-  const url = `https://api.wildapricot.org/v2.2/accounts/${ACCOUNT_ID}/contacts?$filter=${filter}&$top=500`;
-
-  // Initial request returns async result
-  const initial = await httpRequest(url, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: "application/json",
-    },
-  });
-
-  const resultId = initial.ResultId;
-  if (!resultId) throw new Error("No ResultId returned from contacts API");
-
-  // Poll for results
-  const resultUrl = `https://api.wildapricot.org/v2.2/accounts/${ACCOUNT_ID}/Contacts/?resultId=${resultId}&$top=500`;
+async function pollResult(token, resultUrl) {
   let attempts = 0;
   while (attempts < 20) {
     await sleep(3000);
     attempts++;
     try {
       const result = await httpRequest(resultUrl, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          Accept: "application/json",
-        },
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
       });
-
-      if (result.Contacts) {
-        console.log(`Fetched ${result.Contacts.length} active members`);
-        return result.Contacts;
-      }
+      if (result.Contacts) return result.Contacts;
     } catch (e) {
       if (attempts >= 20) throw e;
     }
   }
-
   throw new Error("Timed out waiting for contacts result");
+}
+
+async function fetchContacts(token) {
+  const filter = encodeURIComponent(
+    "(Status eq Active OR Status eq PendingRenewal) AND IsMember eq true"
+  );
+  const base = `https://api.wildapricot.org/v2.2/accounts/${ACCOUNT_ID}/contacts`;
+  const PAGE_SIZE = 100;
+  const allContacts = [];
+  let skip = 0;
+
+  while (true) {
+    console.log(`  Requesting page (skip=${skip})...`);
+    // Each page gets its own async request
+    const url = `${base}?$filter=${filter}&$top=${PAGE_SIZE}&$skip=${skip}&$async=false`;
+    let page;
+    try {
+      const result = await httpRequest(url, {
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
+      });
+
+      if (result.Contacts) {
+        // Synchronous response
+        page = result.Contacts;
+      } else if (result.ResultId) {
+        // Async — poll for results
+        const resultUrl = `${base}?resultId=${result.ResultId}`;
+        page = await pollResult(token, resultUrl);
+      } else {
+        throw new Error("Unexpected API response format");
+      }
+    } catch (e) {
+      throw new Error(`Failed fetching contacts at skip=${skip}: ${e.message}`);
+    }
+
+    console.log(`  Got ${page.length} contacts`);
+    allContacts.push(...page);
+
+    if (page.length < PAGE_SIZE) break;
+    skip += page.length;
+  }
+
+  console.log(`Fetched ${allContacts.length} total contacts across all pages`);
+  return allContacts;
 }
 
 // ─── Geocoding with Nominatim ───────────────────────────
@@ -186,7 +204,8 @@ function transformContact(contact, id, coords) {
     }
   }
 
-  if (!directoryType) return null;
+  // Default to "Contractor" if no mapped category found
+  if (!directoryType) directoryType = "Contractor";
 
   const serviceAreas = getFieldValue(contact, "Service Area") || [];
   const serviceArea = serviceAreas.map((s) => s.Label);
@@ -220,10 +239,27 @@ async function main() {
   const token = await getAccessToken();
   console.log("Authenticated.");
 
-  console.log("Fetching active + pending-renewal members...");
+  // Check total counts
+  const countBase = `https://api.wildapricot.org/v2.2/accounts/${ACCOUNT_ID}/contacts`;
+  for (const label of ["WITH IsMember", "WITHOUT IsMember"]) {
+    const f = label === "WITH IsMember"
+      ? "(Status eq Active OR Status eq PendingRenewal) AND IsMember eq true"
+      : "Status eq Active OR Status eq PendingRenewal";
+    try {
+      const cr = await httpRequest(`${countBase}?$filter=${encodeURIComponent(f)}&$count=true&$top=1`, {
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
+      });
+      console.log(`Count ${label}: ${cr.Count}`);
+    } catch(e) { console.log(`Count ${label} error: ${e.message}`); }
+  }
+
+  console.log("\nFetching active + pending-renewal members...");
   const contacts = await fetchContacts(token);
 
   // Filter to directory-eligible members
+  let droppedLevel = 0, droppedCategory = 0, droppedRole = 0;
+  const unmappedCategories = {};
+
   const eligible = contacts.filter((c) => {
     const fvs = {};
     c.FieldValues.forEach((fv) => (fvs[fv.FieldName] = fv.Value));
@@ -234,15 +270,27 @@ async function main() {
     const catLabels = categories.map((cat) => cat.Label);
 
     // Exclude Staff and Hidden membership levels
-    if (EXCLUDED_LEVELS[levelId]) return false;
-
-    // Exclude Staff/Emeritus professional categories
-    if (
-      catLabels.every(
-        (l) => EXCLUDED_CATEGORIES.includes(l) || !CATEGORY_MAP[l]
-      )
-    )
+    if (EXCLUDED_LEVELS[levelId]) {
+      droppedLevel++;
+      const role = memberRole || "(no role)";
+      console.log(`  DROPPED by level: ${c.Organization || c.DisplayName} — level=${EXCLUDED_LEVELS[levelId]}, role=${role}`);
       return false;
+    }
+
+    // Exclude contacts whose ONLY professional categories are Staff/Emeritus
+    if (catLabels.length > 0 && catLabels.every((l) => EXCLUDED_CATEGORIES.includes(l))) {
+      droppedCategory++;
+      const role = memberRole || "(no role)";
+      console.log(`  DROPPED by category: ${c.Organization || c.DisplayName} — cats=${catLabels.join(",")}, role=${role}`);
+      return false;
+    }
+
+    // Track unmapped categories for diagnostics
+    catLabels.forEach((l) => {
+      if (!CATEGORY_MAP[l] && !EXCLUDED_CATEGORIES.includes(l)) {
+        unmappedCategories[l] = (unmappedCategories[l] || 0) + 1;
+      }
+    });
 
     // Exclude "Bundle member" contacts — keep only Bundle Administrators
     // (one per company) and standalone members (null role)
@@ -251,9 +299,20 @@ async function main() {
     return true;
   });
 
-  console.log(
-    `${eligible.length} directory-eligible members (of ${contacts.length} total)`
-  );
+  console.log(`\n--- Filter diagnostics ---`);
+  console.log(`Total contacts from API: ${contacts.length}`);
+  console.log(`Dropped by membership level (Staff/HoF/Hidden): ${droppedLevel}`);
+  console.log(`Dropped by category (Staff/Emeritus only): ${droppedCategory}`);
+  console.log(`Eligible after all filters: ${eligible.length}`);
+  if (Object.keys(unmappedCategories).length > 0) {
+    console.log(`Unmapped professional categories:`, unmappedCategories);
+  }
+  const noCat = eligible.filter(c => {
+    const cats = (c.FieldValues.find(f => f.FieldName === "Professional Category") || {}).Value || [];
+    return cats.length === 0;
+  });
+  console.log(`Eligible members with NO professional category: ${noCat.length}`);
+  console.log(`--- end diagnostics ---\n`);
 
   // Geocode addresses
   const cache = loadGeocodeCache();
