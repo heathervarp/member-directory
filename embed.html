@@ -244,9 +244,9 @@ function updateMap() {
     const marker = L.marker([m.lat,m.lng],{icon:createMarkerIcon(color)})
       .bindPopup(`
         <div class="popup-name">${esc(m.name)}</div>
-        <div class="popup-meta">${esc(m.serviceArea.join(", "))}</div>
-        <div class="popup-meta">${esc(m.phone)}</div>
-        <a class="popup-link" href="${m.website}" target="_blank">${m.website.replace(/^https?:\/\//,'')}</a>
+        ${m.serviceArea.length ? `<div class="popup-meta">${esc(m.serviceArea.join(", "))}</div>` : ''}
+        ${m.phone ? `<div class="popup-meta">${esc(m.phone)}</div>` : ''}
+        ${m.website ? `<a class="popup-link" href="${m.website}" target="_blank">${m.website.replace(/^https?:\/\//,'')}</a>` : ''}
       `);
     marker.memberId = m.id;
     marker.on("click",() => highlightCard(m.id));
@@ -410,18 +410,18 @@ function renderDirectory() {
         <p class="card-desc">${esc(m.description)}</p>
         <div class="card-divider"></div>
         <div class="card-meta">
-          <div class="meta-row">
+          ${m.serviceArea.length ? `<div class="meta-row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span>${esc(m.serviceArea.join(", "))}</span>
-          </div>
-          <div class="meta-row">
+          </div>` : ''}
+          ${m.phone ? `<div class="meta-row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
             <span>${esc(m.phone)}</span>
-          </div>
-          <div class="meta-row">
+          </div>` : ''}
+          ${m.website ? `<div class="meta-row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
             <a href="${m.website}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${m.website.replace(/^https?:\/\//,'')}</a>
-          </div>
+          </div>` : ''}
         </div>
       </div>
     </article>
