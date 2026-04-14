@@ -1,1 +1,481 @@
-[]
+[
+  {
+    "id": 16,
+    "type": "Distributor & Manufacturer",
+    "name": "ABC Supply Company, Inc.",
+    "logo": "",
+    "phone": "(804) 230-1740",
+    "website": "http://www.abcsupply.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.487689,
+    "lng": -77.4602526
+  },
+  {
+    "id": 24,
+    "type": "Distributor & Manufacturer",
+    "name": "Architectural Exterior Solutions, LLC",
+    "logo": "",
+    "phone": "(804) 658-9533",
+    "website": "",
+    "serviceArea": [],
+    "city": "Roanoke",
+    "description": "",
+    "lat": 37.2641602,
+    "lng": -79.977825
+  },
+  {
+    "id": 10,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlantic Construction Sales",
+    "logo": "",
+    "phone": "(434) 528-9156",
+    "website": "http://www.atlanticconstructionsales.com",
+    "serviceArea": [],
+    "city": "Lynchburg",
+    "description": "",
+    "lat": 37.411278,
+    "lng": -79.1686446
+  },
+  {
+    "id": 30,
+    "type": "Contractor",
+    "name": "Baker Roofing",
+    "logo": "",
+    "phone": "(804) 425-5362",
+    "website": "https://www.bakerroofing.com/",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Chester",
+    "description": "Baker Roofing Company, founded in 1915, has grown to become one of the nation's largest, oldest, and most respected roofing contractors.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 14,
+    "type": "Contractor",
+    "name": "Beck Roofing Corporation",
+    "logo": "",
+    "phone": "(757) 473-9010",
+    "website": "http://www.beckroofing.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Beck Roofing is a commercial roofing contractor focused on maintenance, repair, and reroofing of commercial buildings.",
+    "lat": 36.8656788,
+    "lng": -76.2490345
+  },
+  {
+    "id": 23,
+    "type": "Contractor",
+    "name": "Blue Ridge Roofing, Inc.",
+    "logo": "",
+    "phone": "(434) 979-0501",
+    "website": "http://www.blueridgeroofing.net",
+    "serviceArea": [],
+    "city": "Charlottesville",
+    "description": "Roofing and gutter contractor serving Charlottesville and the surrounding counties since 1987.",
+    "lat": 38.0158846,
+    "lng": -78.4707376
+  },
+  {
+    "id": 20,
+    "type": "Contractor",
+    "name": "Brown Roofing Company, Inc.",
+    "logo": "",
+    "phone": "(703) 335-5244",
+    "website": "",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Manassas",
+    "description": "Brown Roofing Company is an established roofing service located in Manassas, VA, offering reliable solutions for various roofing needs.",
+    "lat": 38.7533069,
+    "lng": -77.5416589
+  },
+  {
+    "id": 33,
+    "type": "Contractor",
+    "name": "DeShazo & Son Roofing, Inc.",
+    "logo": "",
+    "phone": "(804) 262-1177",
+    "website": "www.deshazoandsonroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Glen Allen",
+    "description": "Commercial and Residential Roofing and Commercial Powerwashing",
+    "lat": 37.690186,
+    "lng": -77.5211629
+  },
+  {
+    "id": 15,
+    "type": "Contractor",
+    "name": "DeShazo, J. King, III, Inc.",
+    "logo": "",
+    "phone": "(804) 798-7663",
+    "website": "http://www.deshazoroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Ashland",
+    "description": "Since 1977, we have solidified our reputation as one of the BEST commercial & residential roofing companies in the region.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 6,
+    "type": "Contractor",
+    "name": "DryHome Roofing & Siding Inc.",
+    "logo": "",
+    "phone": "(703) 230-7663",
+    "website": "http://www.dryhome.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Sterling",
+    "description": "Contractor specializing in roofs, gutters and siding for homeowners and businesses.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 25,
+    "type": "Distributor & Manufacturer",
+    "name": "Dunn & Abee, Inc.",
+    "logo": "",
+    "phone": "(704) 930-8377",
+    "website": "http://www.dunnabee.com",
+    "serviceArea": [],
+    "city": "Charlotte",
+    "description": "",
+    "lat": 35.2639199,
+    "lng": -80.8193519
+  },
+  {
+    "id": 2,
+    "type": "Contractor",
+    "name": "Gupton Insulation Co., Inc.",
+    "logo": "",
+    "phone": "(434) 374-5919",
+    "website": "https://www.guptonroofing.net/",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Clarksville",
+    "description": "Since 1960, we have been serving the local community and surrounding area with our expertise in new roof installations, replacements, and repairs. Our services cater to both commercial and residential properties.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 29,
+    "type": "Consultant & Design Professional",
+    "name": "Hale Associates LLC",
+    "logo": "",
+    "phone": "(804) 629-2366",
+    "website": "",
+    "serviceArea": [],
+    "city": "Disputanta",
+    "description": "Full service roof consulting",
+    "lat": 37.1255417,
+    "lng": -77.2304506
+  },
+  {
+    "id": 21,
+    "type": "Distributor & Manufacturer",
+    "name": "Handy Distribution",
+    "logo": "",
+    "phone": "(804) 354-9576",
+    "website": "http://www.nbhandy.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 28,
+    "type": "Associate Professional",
+    "name": "Harry R. James Insurance Agency",
+    "logo": "",
+    "phone": "(804) 644-2938",
+    "website": "http://www.jamesinsurance.com",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "",
+    "lat": 37.5380206,
+    "lng": -77.5230699
+  },
+  {
+    "id": 5,
+    "type": "Contractor",
+    "name": "Hermitage Roofing Company, Inc.",
+    "logo": "",
+    "phone": "(804) 746-2628",
+    "website": "www.hermitageroofing.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Greater Richmond Area",
+      "Tidewater",
+      "Southwest"
+    ],
+    "city": "Ashland",
+    "description": "Commercial and residential roof installation, repair, and specialty services.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 32,
+    "type": "Contractor",
+    "name": "J.D. Miles & Sons, Inc.",
+    "logo": "",
+    "phone": "(757) 545-5912",
+    "website": "https://jdmilesandsons.com/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "JD Miles & Sons is and has been a reputable roofing company that specializes in a wide range of services, from roofing and solar to siding, windows, and doors.",
+    "lat": 36.8225834,
+    "lng": -76.2769162
+  },
+  {
+    "id": 12,
+    "type": "Contractor",
+    "name": "J.R. Roofing & Siding Co., Inc.",
+    "logo": "",
+    "phone": "(703) 569-2028",
+    "website": "https://www.jrroofingandsiding.com/",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Springfield",
+    "description": "JR Roofing & Siding Co. provides residential roofing and commercial roofing services in Springfield, VA and surrounding areas.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 17,
+    "type": "Contractor",
+    "name": "Katchmark Construction, Inc",
+    "logo": "",
+    "phone": "(757) 274-3892",
+    "website": "http://www.katchmark.com",
+    "serviceArea": [
+      "Northern Virginia",
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "Established family company specializing in roofing and siding services.",
+    "lat": 36.6849544,
+    "lng": -76.2321141
+  },
+  {
+    "id": 13,
+    "type": "Contractor",
+    "name": "Kevin Parker Roofing Contractor, Inc.",
+    "logo": "",
+    "phone": "(540) 373-2463",
+    "website": "http://www.kevinsroofing.com",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Fredericksburg",
+    "description": "Proudly serving the Fredericksburg area since 1982. We are a locally owned residential roofing contractor.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 22,
+    "type": "Contractor",
+    "name": "Loudoun Valley Roofing",
+    "logo": "",
+    "phone": "(540) 338-4400",
+    "website": "https://lvroofing.com/",
+    "serviceArea": [
+      "Northern Virginia"
+    ],
+    "city": "Purcellville",
+    "description": "Family-run roofing contractor and gutter shop repairing and replacing roofs, plus installing new metal and aluminum designs.",
+    "lat": 39.1461353,
+    "lng": -77.7158753
+  },
+  {
+    "id": 26,
+    "type": "Contractor",
+    "name": "Mills Roofing LLC",
+    "logo": "",
+    "phone": "(540) 371-6187",
+    "website": "http://millsroofingco.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Southwest"
+    ],
+    "city": "Locust Grove",
+    "description": "With a Class A licensed team, we offer a full range of services—including roofing, siding, gutters, windows, doors, and decks—all under one roof.",
+    "lat": 38.3382604,
+    "lng": -77.8432435
+  },
+  {
+    "id": 1,
+    "type": "Contractor",
+    "name": "Paul Saunders Roofing Company",
+    "logo": "",
+    "phone": "(804) 353-9919",
+    "website": "http://www.saundersroofing.com",
+    "serviceArea": [
+      "Greater Richmond Area"
+    ],
+    "city": "Richmond",
+    "description": "Specializing in Slate, Copper, Spanish Tile, Metal, Shingles, and Flat Roof Systems we take pride in keeping Richmond dry and leak free. We offer free estimates and in-house master roofers to fulfill your roofing needs.",
+    "lat": 37.5571273,
+    "lng": -77.459153
+  },
+  {
+    "id": 31,
+    "type": "Contractor",
+    "name": "Phoenix Roofing",
+    "logo": "",
+    "phone": "(804) 355-1089",
+    "website": "http://phoenix-roofing.com/",
+    "serviceArea": [],
+    "city": "Richmond",
+    "description": "Flashing and Trim, Membrane Roofing, Roof Panels, Thermal Insulation, Waterproofing",
+    "lat": 37.583126,
+    "lng": -77.4135183
+  },
+  {
+    "id": 7,
+    "type": "Contractor",
+    "name": "Quality Enterprises, Inc.",
+    "logo": "",
+    "phone": "(540) 949-0566",
+    "website": "http://www.qualityenterpriseinc.com/",
+    "serviceArea": [],
+    "city": "Waynesboro",
+    "description": "Residential and commercial roofing services for over four decades. Professional assessments, expert installations, and long-lasting solutions to keep your property safe and secure. Leak repair or a complete roof replacement.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 11,
+    "type": "Contractor",
+    "name": "Roof Engineering Corporation",
+    "logo": "",
+    "phone": "(757) 455-8333",
+    "website": "",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Roofing and sheet metal contractor; Roofing, tile, standing seam, cold process, BUR, modified bitumen, single ply work, commercial and residential service. Custom sheet metal including ornamental copperwork, cornices and steeples.",
+    "lat": 36.8518315,
+    "lng": -76.2446696
+  },
+  {
+    "id": 4,
+    "type": "Contractor",
+    "name": "Roof Systems of Virginia Inc.",
+    "logo": "",
+    "phone": "(757) 624-5300",
+    "website": "http://www.roofsys.com",
+    "serviceArea": [
+      "Greater Richmond Area",
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Roof Systems of Virginia, Inc. is an award winning commercial, industrial and institutional roofing contractor. We are one of the largest, well-respected contractors in the Commonwealth.",
+    "lat": 36.8718429,
+    "lng": -76.2913495
+  },
+  {
+    "id": 18,
+    "type": "Distributor & Manufacturer",
+    "name": "Safren Sales",
+    "logo": "",
+    "phone": "(703) 967-0045",
+    "website": "",
+    "serviceArea": [],
+    "city": "Culpeper",
+    "description": "",
+    "lat": 38.4233599,
+    "lng": -78.0317541
+  },
+  {
+    "id": 3,
+    "type": "Distributor & Manufacturer",
+    "name": "Sansbury & Associates LLC",
+    "logo": "",
+    "phone": "(804) 402-0200",
+    "website": "http://www.sansburyreps.com",
+    "serviceArea": [],
+    "city": "Midlothian",
+    "description": "",
+    "lat": 37.5192188,
+    "lng": -77.6779285
+  },
+  {
+    "id": 9,
+    "type": "Distributor & Manufacturer",
+    "name": "SRS Building Products",
+    "logo": "",
+    "phone": "(804) 912-7046",
+    "website": "",
+    "serviceArea": [],
+    "city": "Henrico",
+    "description": "",
+    "lat": 37.6062293,
+    "lng": -77.4926077
+  },
+  {
+    "id": 8,
+    "type": "Contractor",
+    "name": "Strong Ridge Construction LLC",
+    "logo": "",
+    "phone": "(757) 233-0575",
+    "website": "https://strongridge.net/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Construction management firm for new construction builders and homeowners who need roofing, siding, gutters, and repairs.",
+    "lat": 36.8691936,
+    "lng": -76.2334103
+  },
+  {
+    "id": 27,
+    "type": "Contractor",
+    "name": "Thomas Roofing & Supply, Inc.",
+    "logo": "",
+    "phone": "(757) 596-2281",
+    "website": "http://www.thomasroofingsupply.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Yorktown",
+    "description": "Roofing contractor based on the Virginia peninsula for over 40 years. The company specializes in roof repair and installation.",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": 19,
+    "type": "Contractor",
+    "name": "W.T. Anderson Corp.",
+    "logo": "",
+    "phone": "(757) 816-9203",
+    "website": "http://www.wtandersoncorp.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Premium roofing, siding, window and guttering services.",
+    "lat": 36.8698208,
+    "lng": -76.2335969
+  }
+]
