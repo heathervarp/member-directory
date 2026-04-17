@@ -15,7 +15,7 @@
     "lng": null
   },
   {
-    "id": 95,
+    "id": 96,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -123,7 +123,7 @@
     "lng": -79.1686446
   },
   {
-    "id": 94,
+    "id": 95,
     "type": "Distributor & Manufacturer",
     "name": "Atlas Roofing Corporation",
     "logo": "",
@@ -275,7 +275,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -290,7 +290,7 @@
     "lng": -77.64719
   },
   {
-    "id": 101,
+    "id": 102,
     "type": "Contractor",
     "name": "CB Chandler Companies",
     "logo": "",
@@ -1039,7 +1039,7 @@
     "lng": -76.6678629
   },
   {
-    "id": 96,
+    "id": 97,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -1184,7 +1184,7 @@
     "lng": -76.2446696
   },
   {
-    "id": 97,
+    "id": 98,
     "type": "Contractor",
     "name": "Roof Services a Tecta America Company, LLC",
     "logo": "",
@@ -1229,7 +1229,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1357,7 +1357,7 @@
     "lng": null
   },
   {
-    "id": 99,
+    "id": 100,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1383,6 +1383,21 @@
     "description": "Construction management firm for new construction builders and homeowners who need roofing, siding, gutters, and repairs.",
     "lat": 36.8691936,
     "lng": -76.2334103
+  },
+  {
+    "id": 94,
+    "type": "Contractor",
+    "name": "Stublen Roofing",
+    "logo": "",
+    "phone": "(757) 488-8190",
+    "website": "https://www.stublenroofing.com/",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Chesapeake",
+    "description": "Professional, family-run home improvement company specializing in roofs, as well as gutters, venting, and skylights.",
+    "lat": 36.7168315,
+    "lng": -76.2494453
   },
   {
     "id": 12,
@@ -1519,7 +1534,7 @@
     "lng": -76.2335969
   },
   {
-    "id": 98,
+    "id": 99,
     "type": "Contractor",
     "name": "Waters Roofing Company",
     "logo": "",
@@ -1534,7 +1549,7 @@
     "lng": null
   },
   {
-    "id": 100,
+    "id": 101,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
