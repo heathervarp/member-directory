@@ -275,7 +275,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 103,
+    "id": 102,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -290,7 +290,7 @@
     "lng": -77.64719
   },
   {
-    "id": 102,
+    "id": 101,
     "type": "Contractor",
     "name": "CB Chandler Companies",
     "logo": "",
@@ -1229,7 +1229,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 104,
+    "id": 103,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1357,7 +1357,7 @@
     "lng": null
   },
   {
-    "id": 100,
+    "id": 99,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1534,22 +1534,7 @@
     "lng": -76.2335969
   },
   {
-    "id": 99,
-    "type": "Contractor",
-    "name": "Waters Roofing Company",
-    "logo": "",
-    "phone": "(804) 800-5959",
-    "website": "https://woodelrs.com/",
-    "serviceArea": [
-      "Greater Richmond Area"
-    ],
-    "city": "Glen Allen",
-    "description": "Specializing in a wide range of roofing services for residential and commercial properties.",
-    "lat": null,
-    "lng": null
-  },
-  {
-    "id": 101,
+    "id": 100,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
