@@ -1518,21 +1518,6 @@
     "lng": null
   },
   {
-    "id": 2,
-    "type": "Contractor",
-    "name": "W.T. Anderson Corp.",
-    "logo": "",
-    "phone": "(757) 816-9203",
-    "website": "http://www.wtandersoncorp.com",
-    "serviceArea": [
-      "Tidewater"
-    ],
-    "city": "Norfolk",
-    "description": "Premium roofing, siding, window and guttering services.",
-    "lat": 36.8698208,
-    "lng": -76.2335969
-  },
-  {
     "id": 100,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
@@ -1549,5 +1534,20 @@
     "description": "Specializes in residential & commercial roofing.",
     "lat": null,
     "lng": null
+  },
+  {
+    "id": 2,
+    "type": "Contractor",
+    "name": "WT Anderson Roofing and Siding",
+    "logo": "",
+    "phone": "(757) 816-9203",
+    "website": "http://www.wtandersoncorp.com",
+    "serviceArea": [
+      "Tidewater"
+    ],
+    "city": "Norfolk",
+    "description": "Premium roofing, siding, window and guttering services.",
+    "lat": 36.8698208,
+    "lng": -76.2335969
   }
 ]
