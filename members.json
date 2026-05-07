@@ -15,7 +15,7 @@
     "lng": null
   },
   {
-    "id": 95,
+    "id": 96,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -26,6 +26,21 @@
     "description": "Windows, gutters, and siding for residential and commercial buildings. Largest roofing and vinyl siding wholesale distributor in the United States",
     "lat": 37.487689,
     "lng": -77.4602526
+  },
+  {
+    "id": 89,
+    "type": "Distributor & Manufacturer",
+    "name": "Aerial Metals",
+    "logo": "",
+    "phone": "7575675056",
+    "website": "",
+    "serviceArea": [
+      "Statewide"
+    ],
+    "city": "Elizabeth City",
+    "description": "Metal Manufacturing (Roofing panels, accessories, copings, gutters, etc)",
+    "lat": 36.298637,
+    "lng": -76.2240822
   },
   {
     "id": 19,
@@ -123,7 +138,7 @@
     "lng": -79.1686446
   },
   {
-    "id": 94,
+    "id": 95,
     "type": "Distributor & Manufacturer",
     "name": "Atlas Roofing Corporation",
     "logo": "",
@@ -275,7 +290,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -290,7 +305,7 @@
     "lng": -77.64719
   },
   {
-    "id": 101,
+    "id": 102,
     "type": "Contractor",
     "name": "CB Chandler Companies",
     "logo": "",
@@ -611,7 +626,7 @@
     "lng": null
   },
   {
-    "id": 91,
+    "id": 92,
     "type": "Contractor",
     "name": "Hertless Brothers Roofing, Inc.",
     "logo": "",
@@ -706,7 +721,7 @@
     "lng": -77.4114991
   },
   {
-    "id": 89,
+    "id": 90,
     "type": "Contractor",
     "name": "Katchmark Construction, Inc",
     "logo": "",
@@ -860,7 +875,7 @@
     "lng": -76.4578108
   },
   {
-    "id": 98,
+    "id": 99,
     "type": "Contractor",
     "name": "Northeast Contracting Company LLC",
     "logo": "",
@@ -950,7 +965,7 @@
     "lng": -78.8891896
   },
   {
-    "id": 92,
+    "id": 93,
     "type": "Contractor",
     "name": "Owens Corning",
     "logo": "",
@@ -978,7 +993,7 @@
     "lng": -77.1197901
   },
   {
-    "id": 90,
+    "id": 91,
     "type": "Contractor",
     "name": "Paramount Builders, Inc.",
     "logo": "",
@@ -1038,7 +1053,7 @@
     "lng": -76.6678629
   },
   {
-    "id": 96,
+    "id": 97,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -1183,7 +1198,7 @@
     "lng": -76.2446696
   },
   {
-    "id": 97,
+    "id": 98,
     "type": "Contractor",
     "name": "Roof Services a Tecta America Company, LLC",
     "logo": "",
@@ -1228,7 +1243,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1356,7 +1371,7 @@
     "lng": null
   },
   {
-    "id": 99,
+    "id": 100,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1384,7 +1399,7 @@
     "lng": -76.2334103
   },
   {
-    "id": 93,
+    "id": 94,
     "type": "Contractor",
     "name": "Stublen Roofing",
     "logo": "",
@@ -1518,7 +1533,7 @@
     "lng": null
   },
   {
-    "id": 100,
+    "id": 101,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
