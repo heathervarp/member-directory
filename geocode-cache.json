@@ -358,5 +358,9 @@
   "7420 Fullerton Rd, Springfield, VA 22153": {
     "lat": 38.7421985,
     "lng": -77.2113606
+  },
+  "555 Belaire Ave, Chesapeake, VA 23320": {
+    "lat": 36.768427,
+    "lng": -76.2396874
   }
 }
