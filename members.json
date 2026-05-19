@@ -305,19 +305,17 @@
     "lng": -77.64719
   },
   {
-    "id": 104,
+    "id": 102,
     "type": "Contractor",
-    "name": "CB Chandler Companies",
+    "name": "CB Chandler Roofing",
     "logo": "",
-    "phone": "804-344-8085",
-    "website": "www.cbchandler.com",
-    "serviceArea": [
-      "Greater Richmond Area"
-    ],
-    "city": "Henrico",
-    "description": "Commercial Roofing Contractor",
-    "lat": 37.6289002,
-    "lng": -77.5041971
+    "phone": "(804) 344-8085",
+    "website": "",
+    "serviceArea": [],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
   },
   {
     "id": 59,
@@ -1405,7 +1403,7 @@
     "lng": null
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1567,7 +1565,7 @@
     "lng": null
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
