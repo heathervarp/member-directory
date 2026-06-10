@@ -366,5 +366,9 @@
   "P.O. Box 126, Wilson, NC 27894": {
     "lat": 35.7059114,
     "lng": -77.9175714
+  },
+  "1301 Production Road, Norfolk, VA 23502": {
+    "lat": 36.858841,
+    "lng": -76.2441699
   }
 }
