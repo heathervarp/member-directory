@@ -985,12 +985,14 @@
   },
   {
     "id": 96,
-    "type": "Contractor",
+    "type": "Distributor & Manufacturer",
     "name": "Owens Corning",
     "logo": "",
     "phone": "(757) 739-9997",
     "website": "",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Annapolis Junction",
     "description": "",
     "lat": null,
