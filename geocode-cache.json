@@ -370,5 +370,9 @@
   "1301 Production Road, Norfolk, VA 23502": {
     "lat": 36.858841,
     "lng": -76.2441699
+  },
+  "2207 E Marshall Street, Richmond, VA 23223": {
+    "lat": 37.5339675,
+    "lng": -77.4205317
   }
 }
