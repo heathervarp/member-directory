@@ -374,5 +374,9 @@
   "2207 E Marshall Street, Richmond, VA 23223": {
     "lat": 37.5339675,
     "lng": -77.4205317
+  },
+  "1819 Seymour Dr, South Boston, VA 24592": {
+    "lat": 36.6968761,
+    "lng": -78.8913742
   }
 }

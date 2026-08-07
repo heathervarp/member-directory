@@ -288,7 +288,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 106,
+    "id": 107,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -303,7 +303,7 @@
     "lng": -77.64719
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Contractor",
     "name": "CB Chandler Roofing",
     "logo": "",
@@ -595,6 +595,21 @@
     "description": "Since 1960, we have been serving the local community and surrounding area with our expertise in new roof installations, replacements, and repairs. Our services cater to both commercial and residential properties.",
     "lat": null,
     "lng": null
+  },
+  {
+    "id": 101,
+    "type": "Contractor",
+    "name": "Gupton Sheet Metal, Inc.",
+    "logo": "",
+    "phone": "(434) 572-2204",
+    "website": "www.guptonsheetmetal.com",
+    "serviceArea": [
+      "Southwest"
+    ],
+    "city": "South Boston",
+    "description": "Roofing and sheetmetal Contractor",
+    "lat": 36.6968761,
+    "lng": -78.8913742
   },
   {
     "id": 43,
@@ -920,7 +935,7 @@
     "lng": -76.4578108
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Contractor",
     "name": "Northeast Contracting Company LLC",
     "logo": "",
@@ -1260,7 +1275,7 @@
     "lng": -76.2446696
   },
   {
-    "id": 101,
+    "id": 102,
     "type": "Contractor",
     "name": "Roof Services a Tecta America Company, LLC",
     "logo": "",
@@ -1305,7 +1320,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 107,
+    "id": 108,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1417,7 +1432,7 @@
     "lng": null
   },
   {
-    "id": 104,
+    "id": 105,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1579,7 +1594,7 @@
     "lng": null
   },
   {
-    "id": 105,
+    "id": 106,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
