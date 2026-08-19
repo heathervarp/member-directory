@@ -348,7 +348,7 @@
     "lng": -77.1690832
   },
   {
-    "id": 37,
+    "id": 38,
     "type": "Contractor",
     "name": "Commonwealth Exteriors LLC",
     "logo": "",
@@ -491,7 +491,7 @@
     "lng": -77.2113606
   },
   {
-    "id": 39,
+    "id": 40,
     "type": "Contractor",
     "name": "DryHome Roofing & Siding Inc.",
     "logo": "",
@@ -567,7 +567,7 @@
     "lng": null
   },
   {
-    "id": 40,
+    "id": 41,
     "type": "Contractor",
     "name": "Gupton Insulation Co., Inc.",
     "logo": "",
@@ -597,7 +597,7 @@
     "lng": -78.8913742
   },
   {
-    "id": 42,
+    "id": 43,
     "type": "Consultant & Design Professional",
     "name": "Hale Associates LLC",
     "logo": "",
@@ -827,7 +827,7 @@
     "lng": -76.2452196
   },
   {
-    "id": 43,
+    "id": 44,
     "type": "Contractor",
     "name": "Line by Line Roofing",
     "logo": "",
@@ -935,7 +935,7 @@
     "lng": -77.1917713
   },
   {
-    "id": 38,
+    "id": 39,
     "type": "Contractor",
     "name": "Noverra Exteriors",
     "logo": "",
@@ -1171,7 +1171,7 @@
     "lng": -76.2441699
   },
   {
-    "id": 44,
+    "id": 45,
     "type": "Contractor",
     "name": "Rappahannock Roofing Co., Inc.",
     "logo": "",
@@ -1217,17 +1217,19 @@
     "lng": -76.2292663
   },
   {
-    "id": 46,
+    "id": 36,
     "type": "Consultant & Design Professional",
     "name": "REI Engineers",
     "logo": "",
-    "phone": "(757) 961-7224",
-    "website": "https://www.reiengineers.com/",
-    "serviceArea": [],
-    "city": "Virginia Beach",
-    "description": "We provide roof and wall system evaluation testing, inspection and design services.  Services include infrared moisture surveys, wind uplift testing, fastener pull-out testing, condition surveys and litigation support services.",
-    "lat": 36.8163106,
-    "lng": -76.1685747
+    "phone": "(757) 397-6897",
+    "website": "https://reiengineers.com/",
+    "serviceArea": [
+      "Statewide"
+    ],
+    "city": "",
+    "description": "",
+    "lat": null,
+    "lng": null
   },
   {
     "id": 78,
@@ -1335,7 +1337,7 @@
     "lng": -77.9175714
   },
   {
-    "id": 45,
+    "id": 46,
     "type": "Contractor",
     "name": "Roofmax of Tidewater LLC",
     "logo": "",
@@ -1404,7 +1406,7 @@
     "lng": -77.6779285
   },
   {
-    "id": 41,
+    "id": 42,
     "type": "Contractor",
     "name": "SMRCA",
     "logo": "",
@@ -1460,7 +1462,7 @@
     "lng": -76.2494453
   },
   {
-    "id": 36,
+    "id": 37,
     "type": "Contractor",
     "name": "Thomas Roofing & Supply, Inc.",
     "logo": "",
