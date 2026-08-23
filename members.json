@@ -15,7 +15,7 @@
     "lng": null
   },
   {
-    "id": 97,
+    "id": 96,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -28,7 +28,7 @@
     "lng": -77.4602526
   },
   {
-    "id": 90,
+    "id": 89,
     "type": "Distributor & Manufacturer",
     "name": "Aerial Metals",
     "logo": "",
@@ -106,7 +106,7 @@
     "lng": -79.977825
   },
   {
-    "id": 94,
+    "id": 93,
     "type": "Distributor & Manufacturer",
     "name": "Ascent Building Solutions - GAF",
     "logo": "",
@@ -136,7 +136,7 @@
     "lng": -79.1686446
   },
   {
-    "id": 75,
+    "id": 74,
     "type": "Contractor",
     "name": "Baker Roofing",
     "logo": "",
@@ -169,7 +169,7 @@
     "lng": -76.2490345
   },
   {
-    "id": 70,
+    "id": 69,
     "type": "Contractor",
     "name": "Better View Roofing and Siding",
     "logo": "",
@@ -240,7 +240,7 @@
     "lng": null
   },
   {
-    "id": 65,
+    "id": 64,
     "type": "Contractor",
     "name": "Brown Brothers Roofing, Inc.",
     "logo": "",
@@ -273,7 +273,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 105,
+    "id": 104,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -288,7 +288,7 @@
     "lng": -77.64719
   },
   {
-    "id": 102,
+    "id": 101,
     "type": "Contractor",
     "name": "CB Chandler Roofing",
     "logo": "",
@@ -395,7 +395,7 @@
     "lng": -77.4906136
   },
   {
-    "id": 79,
+    "id": 78,
     "type": "Distributor & Manufacturer",
     "name": "DaVinci Roofscapes",
     "logo": "",
@@ -460,7 +460,7 @@
     "lng": null
   },
   {
-    "id": 73,
+    "id": 72,
     "type": "Distributor & Manufacturer",
     "name": "Diamond P Building Products (Duro-Last Roofing)",
     "logo": "",
@@ -476,7 +476,7 @@
     "lng": -78.9670683
   },
   {
-    "id": 89,
+    "id": 88,
     "type": "Contractor",
     "name": "DreamHome Remodeling",
     "logo": "",
@@ -521,7 +521,7 @@
     "lng": -80.8193519
   },
   {
-    "id": 82,
+    "id": 81,
     "type": "Distributor & Manufacturer",
     "name": "Englert Inc",
     "logo": "",
@@ -536,7 +536,7 @@
     "lng": -74.406419
   },
   {
-    "id": 64,
+    "id": 63,
     "type": "Distributor & Manufacturer",
     "name": "Epilay Roofing Underlayments",
     "logo": "",
@@ -582,7 +582,7 @@
     "lng": null
   },
   {
-    "id": 99,
+    "id": 98,
     "type": "Contractor",
     "name": "Gupton Sheet Metal, Inc.",
     "logo": "",
@@ -656,7 +656,7 @@
     "lng": null
   },
   {
-    "id": 93,
+    "id": 92,
     "type": "Contractor",
     "name": "Hertless Brothers Roofing, Inc.",
     "logo": "",
@@ -704,7 +704,7 @@
     "lng": null
   },
   {
-    "id": 66,
+    "id": 65,
     "type": "Contractor",
     "name": "International Roofing Corp.",
     "logo": "",
@@ -721,7 +721,7 @@
     "lng": -77.4136929
   },
   {
-    "id": 63,
+    "id": 62,
     "type": "Contractor",
     "name": "J.D. Miles & Sons, Inc.",
     "logo": "",
@@ -736,7 +736,7 @@
     "lng": -76.2769162
   },
   {
-    "id": 80,
+    "id": 79,
     "type": "Contractor",
     "name": "J.R. Roofing & Siding Co., Inc.",
     "logo": "",
@@ -751,7 +751,7 @@
     "lng": null
   },
   {
-    "id": 85,
+    "id": 84,
     "type": "Contractor",
     "name": "James Ryland Contractor",
     "logo": "",
@@ -766,22 +766,7 @@
     "lng": -77.4205317
   },
   {
-    "id": 60,
-    "type": "Distributor & Manufacturer",
-    "name": "Johns Manville",
-    "logo": "",
-    "phone": "706-508-3875",
-    "website": "",
-    "serviceArea": [
-      "Statewide"
-    ],
-    "city": "Richmond",
-    "description": "Manufacturer of premium-quality insulation, commercial roofing and fibers and nonwovens for commercial, industrial and residential applications.",
-    "lat": 37.5274437,
-    "lng": -77.4114991
-  },
-  {
-    "id": 91,
+    "id": 90,
     "type": "Contractor",
     "name": "Katchmark Construction, Inc",
     "logo": "",
@@ -797,7 +782,7 @@
     "lng": -76.2321141
   },
   {
-    "id": 72,
+    "id": 71,
     "type": "Contractor",
     "name": "Kevin Parker Roofing Contractor, Inc.",
     "logo": "",
@@ -812,7 +797,7 @@
     "lng": null
   },
   {
-    "id": 69,
+    "id": 68,
     "type": "Contractor",
     "name": "Kyro Builders LLC",
     "logo": "",
@@ -859,7 +844,7 @@
     "lng": -77.7158753
   },
   {
-    "id": 74,
+    "id": 73,
     "type": "Distributor & Manufacturer",
     "name": "Mid-Atlantic Roofing Supply",
     "logo": "",
@@ -874,7 +859,7 @@
     "lng": -76.2430297
   },
   {
-    "id": 61,
+    "id": 60,
     "type": "Consultant & Design Professional",
     "name": "Monarch Consulting Services, LLC",
     "logo": "",
@@ -920,7 +905,7 @@
     "lng": -76.4578108
   },
   {
-    "id": 101,
+    "id": 100,
     "type": "Contractor",
     "name": "Northeast Contracting Company LLC",
     "logo": "",
@@ -965,7 +950,7 @@
     "lng": null
   },
   {
-    "id": 84,
+    "id": 83,
     "type": "Distributor & Manufacturer",
     "name": "Old Dominion Sales Group",
     "logo": "",
@@ -980,7 +965,7 @@
     "lng": null
   },
   {
-    "id": 62,
+    "id": 61,
     "type": "Associate Professional",
     "name": "On Deck Marketing",
     "logo": "",
@@ -995,7 +980,7 @@
     "lng": -78.8891896
   },
   {
-    "id": 95,
+    "id": 94,
     "type": "Distributor & Manufacturer",
     "name": "Owens Corning",
     "logo": "",
@@ -1010,7 +995,7 @@
     "lng": null
   },
   {
-    "id": 71,
+    "id": 70,
     "type": "Contractor",
     "name": "Painter Roofing & Construction",
     "logo": "",
@@ -1025,7 +1010,7 @@
     "lng": -77.1197901
   },
   {
-    "id": 92,
+    "id": 91,
     "type": "Contractor",
     "name": "Paramount Builders, Inc.",
     "logo": "",
@@ -1085,7 +1070,7 @@
     "lng": -76.6678629
   },
   {
-    "id": 98,
+    "id": 97,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -1098,7 +1083,7 @@
     "lng": -77.4135183
   },
   {
-    "id": 77,
+    "id": 76,
     "type": "Contractor",
     "name": "Pond Roofing",
     "logo": "",
@@ -1128,7 +1113,7 @@
     "lng": -76.2396874
   },
   {
-    "id": 76,
+    "id": 75,
     "type": "Contractor",
     "name": "Preston Roofing Inc.",
     "logo": "",
@@ -1143,7 +1128,7 @@
     "lng": null
   },
   {
-    "id": 81,
+    "id": 80,
     "type": "Contractor",
     "name": "Quality Enterprises, Inc.",
     "logo": "",
@@ -1186,7 +1171,7 @@
     "lng": -77.4605399
   },
   {
-    "id": 67,
+    "id": 66,
     "type": "Contractor",
     "name": "Red Tail Construction, Inc",
     "logo": "",
@@ -1232,7 +1217,7 @@
     "lng": null
   },
   {
-    "id": 78,
+    "id": 77,
     "type": "Contractor",
     "name": "Reitzel Home Improvement, Inc.",
     "logo": "",
@@ -1262,7 +1247,7 @@
     "lng": -76.2446696
   },
   {
-    "id": 100,
+    "id": 99,
     "type": "Contractor",
     "name": "Roof Services a Tecta America Company, LLC",
     "logo": "",
@@ -1278,7 +1263,7 @@
     "lng": null
   },
   {
-    "id": 68,
+    "id": 67,
     "type": "Contractor",
     "name": "Roof Systems of Virginia Inc.",
     "logo": "",
@@ -1307,7 +1292,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 106,
+    "id": 105,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1365,7 +1350,7 @@
     "lng": -79.0741135
   },
   {
-    "id": 83,
+    "id": 82,
     "type": "Contractor",
     "name": "Row Mic Construction Inc",
     "logo": "",
@@ -1380,7 +1365,7 @@
     "lng": -77.093692
   },
   {
-    "id": 86,
+    "id": 85,
     "type": "Distributor & Manufacturer",
     "name": "Safren Sales",
     "logo": "",
@@ -1393,7 +1378,7 @@
     "lng": -78.0317541
   },
   {
-    "id": 87,
+    "id": 86,
     "type": "Distributor & Manufacturer",
     "name": "Sansbury & Associates LLC",
     "logo": "",
@@ -1419,7 +1404,7 @@
     "lng": null
   },
   {
-    "id": 103,
+    "id": 102,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1447,7 +1432,7 @@
     "lng": -76.2334103
   },
   {
-    "id": 96,
+    "id": 95,
     "type": "Contractor",
     "name": "Stublen Roofing",
     "logo": "",
@@ -1505,7 +1490,7 @@
     "lng": null
   },
   {
-    "id": 88,
+    "id": 87,
     "type": "Contractor",
     "name": "TST Roofing & Glazing",
     "logo": "",
@@ -1563,7 +1548,7 @@
     "lng": null
   },
   {
-    "id": 104,
+    "id": 103,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
