@@ -15,7 +15,7 @@
     "lng": null
   },
   {
-    "id": 95,
+    "id": 96,
     "type": "Distributor & Manufacturer",
     "name": "ABC Supply Company, Inc.",
     "logo": "",
@@ -134,6 +134,21 @@
     "description": "Commercial roofing solutions from elite manufacturers.",
     "lat": 37.411278,
     "lng": -79.1686446
+  },
+  {
+    "id": 95,
+    "type": "Distributor & Manufacturer",
+    "name": "Atlas Roofing Corporation",
+    "logo": "",
+    "phone": "(804) 402-8040",
+    "website": "www.atlasroofing.com",
+    "serviceArea": [
+      "Statewide"
+    ],
+    "city": "Mineral",
+    "description": "Manufacturer of asphalt shingles and accessories.",
+    "lat": 39.5685869,
+    "lng": -78.7499626
   },
   {
     "id": 72,
@@ -273,7 +288,7 @@
     "lng": -77.5416589
   },
   {
-    "id": 104,
+    "id": 105,
     "type": "Contractor",
     "name": "C.L. Wright Roofing Inc.",
     "logo": "",
@@ -288,7 +303,7 @@
     "lng": -77.64719
   },
   {
-    "id": 101,
+    "id": 102,
     "type": "Contractor",
     "name": "CB Chandler Roofing",
     "logo": "",
@@ -567,7 +582,7 @@
     "lng": null
   },
   {
-    "id": 98,
+    "id": 99,
     "type": "Contractor",
     "name": "Gupton Sheet Metal, Inc.",
     "logo": "",
@@ -873,7 +888,7 @@
     "lng": -76.4578108
   },
   {
-    "id": 100,
+    "id": 101,
     "type": "Contractor",
     "name": "Northeast Contracting Company LLC",
     "logo": "",
@@ -1038,7 +1053,7 @@
     "lng": -76.6678629
   },
   {
-    "id": 96,
+    "id": 97,
     "type": "Contractor",
     "name": "Phoenix Roofing",
     "logo": "",
@@ -1215,7 +1230,7 @@
     "lng": -76.2446696
   },
   {
-    "id": 99,
+    "id": 100,
     "type": "Contractor",
     "name": "Roof Services a Tecta America Company, LLC",
     "logo": "",
@@ -1275,7 +1290,7 @@
     "lng": -121.6432333
   },
   {
-    "id": 105,
+    "id": 106,
     "type": "Contractor",
     "name": "Roofing Innovations",
     "logo": "",
@@ -1374,7 +1389,7 @@
     "lng": -77.6779285
   },
   {
-    "id": 97,
+    "id": 98,
     "type": "Contractor",
     "name": "Skyline Roofing and Contracting",
     "logo": "",
@@ -1403,7 +1418,7 @@
     "lng": null
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Distributor & Manufacturer",
     "name": "SRS Building Products",
     "logo": "",
@@ -1547,7 +1562,7 @@
     "lng": null
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Contractor",
     "name": "Woodel Roof Systems, Inc.",
     "logo": "",
