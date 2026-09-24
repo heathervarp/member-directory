@@ -601,11 +601,13 @@
     "type": "Consultant & Design Professional",
     "name": "Hale Associates LLC",
     "logo": "",
-    "phone": "(804) 629-2366",
+    "phone": "804411033",
     "website": "https://www.roofprocurement.com/",
-    "serviceArea": [],
+    "serviceArea": [
+      "Statewide"
+    ],
     "city": "Disputanta",
-    "description": "Full service roof consulting",
+    "description": "Full Service Roof Inspections & Consulting",
     "lat": 37.1255417,
     "lng": -77.2304506
   },
