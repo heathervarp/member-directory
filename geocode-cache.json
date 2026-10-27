@@ -390,5 +390,9 @@
   "402 W Duke of Gloucester Street, Williamsburg, VA 23188": {
     "lat": 37.2708628,
     "lng": -76.7059623
+  },
+  "Mechanicsville, VA": {
+    "lat": 37.627722,
+    "lng": -77.3538176
   }
 }
